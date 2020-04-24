@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: W3Layouts/gatsby-starter-delog
+  repo: saulofilho/new-portfolio
 media_folder: static/assets
 public_folder: /assets
 collections:

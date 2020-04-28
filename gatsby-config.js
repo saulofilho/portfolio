@@ -7,12 +7,21 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
+    title: `Saulo Filho`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://saulofilho-portfolio.netlify.app/`,
     home: {
       title: `Hi! I'm Saulo Filho`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
+      description: `Olá. :)
+
+      My name is Saulo Filho. I'm a Creative Full Stack Javascript Developer.
+      
+      I used to be (10+ years) a Creative Marketing Professional, writing to advertising and content.
+      Cinema, music and entertainment scripts as well.
+      
+      Nowadays, I have been working with HTML5, CSS3, Vanilla/ECMA, Node, Processing, and tools like SASS, React, Gatsby, Next, React Native/Expo, Redux, Adonis, Jest, Storybook, P5, Git, Webpack, Gulp, Docker, Regex, JSONt, Markdown, CLI, JAMStack, MERNStack, GraphQL, SQL (MySQL, SQLite, Pstgres), NoSQL (MongoDB), CMS (WordPress, VTEX, Squarespace, Netlify CMS).
+      
+      I spend some time having fun with generative art, and making robots, with Arduino and IoT.`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 

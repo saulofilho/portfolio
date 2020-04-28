@@ -1,6 +1,6 @@
 import React from "react"
 import Helmet from 'react-helmet';
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default function Template({
@@ -16,7 +16,7 @@ export default function Template({
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
-          
+
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
@@ -29,10 +29,15 @@ export default function Template({
               <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <div className="site-wrapper">
+            <div
+              className="blog-post-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+            <div className="back-home">
+              <Link to="/">⇦ back home</Link>
+            </div>
+          </div>
         </article>
       </div>
     </Layout>

@@ -2,13 +2,16 @@ import React from 'react';
 
 const about = () => {
   return (
-    <div>
+    <div className="about">
       <p>
         Olá. :)
         <br />
         <br />
-        My name is <a href="https://satanicandsatanist.tumblr.com/" className="blue my-name"><b>Saulo Filho</b></a>. I'm a
-        <a href="https://github.com/saulofilho" className="green">Creative Full Stack Javascript Developer</a>.
+        My name is <a href="https://satanicandsatanist.tumblr.com/" className="blue my-name">
+          <b>Saulo Filho</b></a>.
+          I'm a <a href="https://github.com/saulofilho" className="green">
+          Creative Full Stack Javascript Developer
+        </a>.
         <br />
         <br />
         I used to be (10+ years) a Creative Marketing Professional, writing to advertising and
@@ -22,7 +25,7 @@ const about = () => {
         Processing, and tools like SASS, React, Gatsby, Next, React Native/Expo, Redux,
         Adonis, Jest, Storybook, P5, Git,
         Webpack, Gulp, Docker, Regex, JSONt, Markdown, CLI, JAMStack, MERNStack,
-        GraphQL,
+        GraphQL, PWA, SPA,
         SQL (MySQL, SQLite, Pstgres), NoSQL (MongoDB), CMS (WordPress, VTEX,
         Squarespace, Netlify CMS).
         <br />

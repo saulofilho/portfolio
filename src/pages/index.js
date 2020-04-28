@@ -7,8 +7,9 @@ import PostLink from "../components/post-link"
 import About from "../components/about"
 import randomColor from "../components/randomColor"
 
-
-randomColor();
+if (typeof window !== 'undefined') {
+  randomColor();
+}
 
 const IndexPage = ({
   data: {
@@ -47,13 +48,17 @@ const IndexPage = ({
                 <a href="https://instaxmmrs.com/" class="orange">Instaxmmrs</a>
               </li>
               <li>
-                <a href="https://www.decoskin.com/" class="orange" target="_blank" rel="noopener">DecoSkin</a>
+                <a href="https://www.decoskin.com/" class="orange">DecoSkin</a>
               </li>
               <li>
                 <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" class="orange">Brastemp B.blend Drinks; Máquinas</a>
               </li>
               <li>
-                <a href="https://saulofilho.github.io/speedweed.bike/" class="orange">🚴🏾</a>
+                <a href="https://saulofilho.github.io/speedweed.bike/" class="orange">
+                <span role="img" aria-label="delicious">
+                  🚴🏾
+                </span>
+                </a>
               </li>
               <li>
                 <a href="https://saulofilho.github.io/laughed-a-lot/" className="orange">LOL Generator</a>

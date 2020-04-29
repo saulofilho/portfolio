@@ -46,6 +46,7 @@ module.exports = {
         icon: `static/assets/torus-icon.png`, // This path is relative to the root of the site.
       }
     },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -68,7 +69,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-30027142-1",
+        trackingId: "UA-116546328-1",
         head: true,
       }
     },

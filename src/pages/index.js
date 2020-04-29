@@ -45,16 +45,16 @@ const IndexPage = ({
                 <a href="https://torus-app.now.sh" className="orange">Torus Experiment</a>
               </li>
               <li>
-                <a href="https://instaxmmrs.com/" class="orange">Instaxmmrs</a>
+                <a href="https://instaxmmrs.com/" className="orange">Instaxmmrs</a>
               </li>
               <li>
-                <a href="https://www.decoskin.com/" class="orange">DecoSkin</a>
+                <a href="https://www.decoskin.com/" className="orange">DecoSkin</a>
               </li>
               <li>
-                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" class="orange">Brastemp B.blend Drinks; Máquinas</a>
+                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange">Brastemp B.blend Drinks; Máquinas</a>
               </li>
               <li>
-                <a href="https://saulofilho.github.io/speedweed.bike/" class="orange">
+                <a href="https://saulofilho.github.io/speedweed.bike/" className="orange">
                 <span role="img" aria-label="delicious">
                   🚴🏾
                 </span>
@@ -92,31 +92,31 @@ const IndexPage = ({
                 <a href="https://the-world-of-infos.now.sh/" className="orange">The World of Infos</a>
               </li>
               <li>
-                <a href="https://move-glitch.now.sh/">move glitch</a>
+                <a href="https://move-glitch.now.sh/" className="orange">move glitch</a>
               </li>
               <li>
-                <a href="https://draw-canvas.now.sh/">Draw Me Like One of Your French Girlsbeta</a>
+                <a href="https://draw-canvas.now.sh/" className="orange">Draw Me Like One of Your French Girlsbeta</a>
               </li>
               <li>
-                <a href="https://ubook-desafio.now.sh/">Ubook</a>
+                <a href="https://ubook-desafio.now.sh/" className="orange">Ubook</a>
               </li>
               <li>
-                <a href="https://api-connect-ghibli.herokuapp.com/index.html">Ghibli Page</a>
+                <a href="https://api-connect-ghibli.herokuapp.com/index.html" className="orange">Ghibli Page</a>
               </li>
               <li>
-                <a href="https://react-huntweb-tutorial.netlify.app/">HuntWeb</a>
+                <a href="https://react-huntweb-tutorial.netlify.app/" className="orange">HuntWeb</a>
               </li>
               <li>
-                <a href="https://gb-app-react.now.sh/">GB</a>
+                <a href="https://gb-app-react.now.sh/" className="orange">GB</a>
               </li>
               <li>
-                <a href="https://sas-app.now.sh/">SaaS App</a>
+                <a href="https://sas-app.now.sh/" className="orange">SaaS App</a>
               </li>
               <li>
-                <a href="https://uploadappreact.herokuapp.com/">img ➯ link App</a>
+                <a href="https://uploadappreact.herokuapp.com/" className="orange">img ➯ link App</a>
               </li>
               <li>
-                <a href="https://animated-moving.now.sh/">follow the mouse</a>
+                <a href="https://animated-moving.now.sh/" className="orange">follow the mouse</a>
               </li>
               <li>
                 <a href="./tutoriais" className="orange">tutorials</a>
@@ -125,7 +125,7 @@ const IndexPage = ({
           </div>
           <div className="mad-man">
             <h2>Mad Man:</h2>
-            <div classNameName="list">
+            <div className="list">
               {Posts}
             </div>
           </div>

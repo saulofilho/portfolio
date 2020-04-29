@@ -1,20 +1,20 @@
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 // import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
 
 export default ({ children }) => {
-  // const data = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       site {
-  //         siteMetadata {
-  //           title
-  //         }
-  //       }
-  //     }
-  //   `
-  // )
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `
+  )
   return (
     <div className="">
       {/* <header className="site-header">

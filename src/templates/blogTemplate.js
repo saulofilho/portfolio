@@ -16,7 +16,7 @@ export default function Template({
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
-
+          {console.log("oi", frontmatter.title)}
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
@@ -58,3 +58,9 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+// https://saulofilho.com/RDSummit2018
+// https://saulofilho.com/ValeDoInicio
+// https://saulofilho.com/Autocomplete
+// https://saulofilho.com/RDPride2019

@@ -44,3 +44,11 @@ The agency presented a twist on ordinary daily objects with Kibon’s delicious 
 ![](/assets/captura-de-tela-2015-07-13-s-17.09.29_1250.png)
 
 ![](/assets/captura-de-tela-2015-07-13-s-17.09.56_1250.png)
+
+Kibon was one of the first brazilian brands to use Instagram, and on a platform that is 100 percent visual, the images needed to be carefully thought out, down to the smallest details. mixing diverse materials to create distinctive textures, colors and brightness, F.biz created each of the objects shown in the images. The campaign that was presented during a one-month period took 45 days to prepare.
+
+![](/assets/vaso_1600_c.jpg)
+
+![](/assets/captura-de-tela-2016-09-20-as-15.59.21_521.png)
+
+![](/assets/palitogif2.gif)

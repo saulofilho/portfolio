@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: GilletteTheBarberShopInterview
+path: /GilletteTheBarberShopInterview
 date: 2020-04-29T17:57:16.112Z
 title: Gillette The Barber ShopInterview
 metaDescription: barberShop

@@ -28,3 +28,19 @@ Kibon’s message "Goodbye, Serious!" seeks to combat daily life's boring routin
 The target audience was men and women ages 18-34 years old. Brazil's number of mobile phones surpasses that of its population: 284 million mobile connections versus 204 million people. By thinking mobile first, instagram was the perfect platform.
 
 Instagram also had the inspirational positioning and the visual approach the agency needed for kibon. But it was a challenge to break through on social media.
+
+![](/assets/kibon-goodbyeserious_1600_c.jpg)
+
+F.biz created five posts that introduced the global concept on Kibon’s Instagram in Brazil: Goodbye Serious. The campaign also said goodbye to 3D graphics, having all of its elements produced manually and then photographed, creating fun images and non-sequiturs that showed the brand’s ice creams in a way they had never been seen before on the platform.
+
+The agency presented a twist on ordinary daily objects with Kibon’s delicious ice cream flavors to offer a pause from the hectic daily routine and to inspire people to go after other happy moments.
+
+![](/assets/captura-de-tela-2015-07-13-s-17.08.29_1250.png)
+
+![](/assets/captura-de-tela-2015-07-13-s-17.08.45_1250.png)
+
+![](/assets/captura-de-tela-2015-07-13-s-17.09.05_1250.png)
+
+![](/assets/captura-de-tela-2015-07-13-s-17.09.29_1250.png)
+
+![](/assets/captura-de-tela-2015-07-13-s-17.09.56_1250.png)

@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Saulo Filho, Creative Full Stack Developer`,
     description: `Creative Full Stack Developer`,
-    siteUrl: `https://saulofilho-portfolio.netlify.app/`,
+    siteUrl: `https://saulofilho.com`,
     home: {
       title: `Hi! I'm Saulo Filho`,
       description: `Olá. :)

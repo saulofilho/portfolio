@@ -58,9 +58,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-
-// https://saulofilho.com/RDSummit2018
-// https://saulofilho.com/ValeDoInicio
-// https://saulofilho.com/Autocomplete
-// https://saulofilho.com/RDPride2019

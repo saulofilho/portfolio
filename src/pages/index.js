@@ -31,10 +31,6 @@ const IndexPage = ({
           {!site.siteMetadata.w3l_dom_key ? null : <meta name="w3l-domain-verification" content={site.siteMetadata.w3l_dom_key} />}
         </Helmet>
         <header>
-          <p className="warn">
-            This page generates random backgroundColor & color.
-            In case of indistinguishable layout: F5.
-          </p>
         </header>
         <About />
         <div className="work">
@@ -42,7 +38,7 @@ const IndexPage = ({
             <h2>Developer:</h2>
             <ul className="work-list">
               <li>
-                <a href="https://torus-app.now.sh" className="orange">Torus Experiment</a>
+                <a href="https://torus-app.now.sh" className="orange">3D Primitives Experiment</a>
               </li>
               <li>
                 <a href="https://instaxmmrs.com/" className="orange">Instaxmmrs</a>

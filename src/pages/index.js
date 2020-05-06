@@ -38,7 +38,7 @@ const IndexPage = ({
             <h2>Developer:</h2>
             <ul className="work-list">
               <li>
-                <a href="https://torus-app.now.sh" className="orange">3D Primitives Experiment</a>
+                <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>
               </li>
               <li>
                 <a href="https://instaxmmrs.com/" className="orange">Instaxmmrs</a>

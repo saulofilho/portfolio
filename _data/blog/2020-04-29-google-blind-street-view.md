@@ -2,7 +2,7 @@
 template: BlogPost
 path: /GoogleBlindStreetView
 date: 2020-04-29T19:27:24.493Z
-title: Google Blind Street View
+title: "Google: Blind Street View"
 thumbnail: /assets/google.gif
 ---
 Google Creative Sandbox is a space to celebrate the intersection of creativity and technology, primarily within the realm of advertising.

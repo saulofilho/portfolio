@@ -2,7 +2,7 @@
 template: BlogPost
 path: /GilletteTheBarberShopInterview
 date: 2020-04-29T17:57:16.112Z
-title: Gillette The Barber ShopInterview
+title: "Gillette: The Barber ShopInterview"
 thumbnail: ""
 metaDescription: barberShop
 ---

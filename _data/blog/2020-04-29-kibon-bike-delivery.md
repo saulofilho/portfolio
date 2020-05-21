@@ -2,7 +2,7 @@
 template: BlogPost
 path: /KibonBikeDelivery
 date: 2020-04-29T19:45:44.091Z
-title: Kibon Bike Delivery
+title: "Kibon: Bike Delivery"
 ---
 Bike Delivery We did this live stunt in recife to launch the campaign at 4 P.M., guys with bicycles have delivered ice cream to cool down the summer.
 

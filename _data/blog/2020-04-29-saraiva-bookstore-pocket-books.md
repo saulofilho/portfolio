@@ -2,7 +2,7 @@
 template: BlogPost
 path: /SaraivaPocketBooks
 date: 2020-04-29T18:40:27.400Z
-title: Saraiva Bookstore Pocket Books
+title: "Saraiva Bookstore: Pocket Books"
 thumbnail: /assets/saraivag.gif
 ---
 # Jeans posters showcasing the covers of literaly classics. 

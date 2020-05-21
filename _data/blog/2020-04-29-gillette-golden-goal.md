@@ -2,7 +2,7 @@
 template: BlogPost
 path: /GilletteGoldenGoal
 date: 2020-04-29T20:41:44.274Z
-title: Gillette Golden Goal
+title: "Gillette: Golden Goal"
 thumbnail: /assets/header_gdo2_1200.png
 ---
 Gillette launches Golden Goal campaign and turns Neymar Jr.'s goals in support of his institute.

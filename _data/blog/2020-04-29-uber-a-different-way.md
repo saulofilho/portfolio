@@ -2,7 +2,7 @@
 template: BlogPost
 path: /UberADifferentWay
 date: 2020-04-29T19:12:13.305Z
-title: Uber A Different Way
+title: "Uber: A Different Way"
 thumbnail: /assets/driversphotosshooting.gif
 ---
 ## Real stories of Real drivers.

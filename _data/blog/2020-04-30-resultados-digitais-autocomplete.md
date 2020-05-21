@@ -2,7 +2,7 @@
 template: BlogPost
 path: /Autocomplete
 date: 2020-04-30T16:54:45.299Z
-title: Resultados Digitais Autocomplete
+title: "Resultados Digitais: Autocomplete"
 ---
 The Autocomplete Project is about...
 

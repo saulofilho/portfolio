@@ -2,7 +2,7 @@
 template: BlogPost
 path: /GilletteTheBestYear
 date: 2020-04-29T18:55:31.945Z
-title: Gillette The Best Year of Your Life Promo
+title: "Gillette: The Best Year of Your Life Promo"
 ---
 
 

@@ -2,7 +2,7 @@
 template: BlogPost
 path: /KibonFreezerClock
 date: 2020-04-29T18:52:08.795Z
-title: Kibon Freezer Clock
+title: "Kibon: Freezer Clock"
 ---
 It’s time to say Goodbye to Seriousness. It’s Kibon Time.
 

@@ -20,7 +20,7 @@ const about = () => {
         Cinema, music and entertainment scripts as well.
         <br />
         <br />
-        Nowadays, I have been working with HTML5, CSS3,
+        Since 2017, I have been working with HTML5, CSS3,
         Vanilla/ECMA, Node,
         Processing, and tools like SASS, React, Gatsby, Next, React Native/Expo, Redux,
         Adonis, Jest, Storybook, P5, Git,
@@ -39,8 +39,7 @@ const about = () => {
         So, don't be shy like me, and feel free to say hello[at]saulofilho.com
         <br />
         <br />
-        In case that you would like to know details about
-        <a href="https://www.linkedin.com/in/saulofilho/" className="green">my career</a>.
+        In case that you would like to know details about <a href="https://www.linkedin.com/in/saulofilho/" className="green">my career</a>.
         <br />
         <br />
         Below is an abridged list of my favorite projects.
@@ -49,4 +48,4 @@ const about = () => {
   );
 }
 
-export default about;
+export default about

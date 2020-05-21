@@ -3,16 +3,10 @@ import Helmet from 'react-helmet';
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
-import randomColor from "../components/randomColor"
-
-if (typeof window !== 'undefined') {
-  randomColor();
-}
-
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data,
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
@@ -22,19 +16,9 @@ export default function Template({
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
-          {console.log("oi", frontmatter.title)}
-          {!frontmatter.thumbnail && (
-            <div className="post-thumbnail">
-              <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
-            </div>
-          )}
-          {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
-          )}
           <div className="site-wrapper">
             <div
               className="blog-post-content"

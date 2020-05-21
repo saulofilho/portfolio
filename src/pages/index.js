@@ -3,13 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-// import HeroHeader from "../components/heroHeader"
 import About from "../components/about"
-import randomColor from "../components/randomColor"
-
-if (typeof window !== 'undefined') {
-  randomColor();
-}
 
 const IndexPage = ({
   data: {
@@ -28,7 +22,6 @@ const IndexPage = ({
         <Helmet>
           <title>{site.siteMetadata.title}</title>
           <meta name="description" content={site.siteMetadata.description} />
-          {!site.siteMetadata.w3l_dom_key ? null : <meta name="w3l-domain-verification" content={site.siteMetadata.w3l_dom_key} />}
         </Helmet>
         <header>
         </header>
@@ -138,10 +131,9 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-        w3l_dom_key
       }
     }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
       edges {
         node {
           id

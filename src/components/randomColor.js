@@ -8,4 +8,4 @@ const randomColor = () => {
   document.body.style.color = generateRandomColor();
 }
 
-export default randomColor;
+export default randomColor

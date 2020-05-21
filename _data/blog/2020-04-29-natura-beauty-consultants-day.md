@@ -2,7 +2,7 @@
 template: BlogPost
 path: /NaturaBeautyConsultantsDay
 date: 2020-04-29T19:24:09.699Z
-title: Natura Beauty Consultant's Day
+title: "Natura: Beauty Consultant's Day"
 ---
 To honor their Beauty Consultants, Natura created a day in calendar for them. The Natura Beauty Consultant Day. And this year we created a film to celebrate with them this special day.
 

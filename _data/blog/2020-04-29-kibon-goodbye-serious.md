@@ -2,7 +2,7 @@
 template: BlogPost
 path: /KibonGoodbyeSerious
 date: 2020-04-29T19:30:03.009Z
-title: Kibon Goodbye Serious
+title: "Kibon: Goodbye Serious"
 thumbnail: /assets/palitogif.gif
 ---
 Kibon ice cream's main challenge was to get customers' consideration at the time of purchase.

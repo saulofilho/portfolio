@@ -2,7 +2,7 @@
 template: BlogPost
 path: /RDPride2019
 date: 2020-04-30T17:03:15.276Z
-title: Resultados Digitais Pride 2019
+title: "Resultados Digitais: Pride 2019"
 ---
 ## About...
 

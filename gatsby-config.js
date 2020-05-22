@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Saulo Filho, Creative Full Stack Javascript Developer`,
-        short_name: `starter`,
+        short_name: `saulofilho`,
         start_url: `/`,
         background_color: `rgb(127, 246, 27`,
         theme_color: `rgb(127, 246, 27)`,

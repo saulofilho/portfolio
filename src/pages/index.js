@@ -111,7 +111,10 @@ const IndexPage = ({
                 <a href="https://animated-moving.now.sh/" className="orange">follow the mouse</a>
               </li>
               <li>
-                <a href="./tutoriais" className="orange">tutorials</a>
+                <a href="https://search-movie-app-one.now.sh/" className="orange">The Movie Information Site</a>
+              </li>
+              <li>
+                <a href="#top" className="orange">tutorials</a>
               </li>
             </ul>
           </div>

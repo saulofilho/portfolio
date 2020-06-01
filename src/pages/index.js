@@ -43,7 +43,7 @@ const IndexPage = ({
                 <a href="https://www.decoskin.com/" className="orange">DecoSkin</a>
               </li>
               <li>
-                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange">Brastemp B.blend Drinks; Máquinas</a>
+                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange">Brastemp B.blend Drinks & Brastemp B.blend Máquinas</a>
               </li>
               <li>
                 <a href="https://saulofilho.github.io/speedweed.bike/" className="orange">
@@ -64,19 +64,19 @@ const IndexPage = ({
               <li>
                 <a href="https://saulofilho.github.io/TerrainGenerator/" className="orange">Terrain Generator</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://saulofilho.github.io/Polar-Perlin-Noise-Loops/" className="orange">Polar Perlin Noise Loops</a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://saulofilho.github.io/SANDPILES/" className="orange">Sandpiles</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://saulofilho.github.io/TheSexySoundOfTheLaundryMachine/" className="orange">
                   <span role="img" aria-label="delicious">
                     😋
                   </span>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="./TheCyberPlant" className="orange">The Cyber Plant</a>
               </li>
@@ -87,37 +87,40 @@ const IndexPage = ({
                 <a href="https://move-glitch.now.sh/" className="orange">move glitch</a>
               </li>
               <li>
-                <a href="https://draw-canvas.now.sh/" className="orange">Draw Me Like One of Your French Girlsbeta</a>
+                <a href="https://draw-canvas.now.sh/" className="orange">Draw Me Like One of Your French Girls beta</a>
               </li>
               <li>
                 <a href="https://ubook-desafio.now.sh/" className="orange">Ubook</a>
               </li>
               <li>
-                <a href="https://api-connect-ghibli.herokuapp.com/index.html" className="orange">Ghibli Page</a>
+                <a href="https://ghibli-api-connect.now.sh/" className="orange">Ghibli Page</a>
               </li>
               <li>
                 <a href="https://react-huntweb-tutorial.netlify.app/" className="orange">HuntWeb</a>
               </li>
               <li>
-                <a href="https://gb-app-react.now.sh/" className="orange">GB</a>
+                <a href="https://gb-app-react.now.sh/" className="orange">gb app beta</a>
               </li>
               <li>
                 <a href="https://saas-app.now.sh/" className="orange">SaaS App</a>
               </li>
               <li>
-                <a href="https://ong-app.now.sh/" className="orange">ong app project</a>
+                <a href="https://ong-app.now.sh/" className="orange">ong app beta</a>
               </li>
               <li>
-                <a href="https://uploadappreact.herokuapp.com/" className="orange">img ➯ link App</a>
+                <a href="https://uploadappreact.herokuapp.com/" className="orange">img ➯ link app</a>
               </li>
               <li>
                 <a href="https://animated-moving.now.sh/" className="orange">follow the mouse</a>
               </li>
               <li>
-                <a href="https://search-movie-app-one.now.sh/" className="orange">The Movie Information Site</a>
+                <a href="https://search-movie-app-one.now.sh/" className="orange">Movie Poster beta</a>
               </li>
               <li>
-                <a href="#top" className="orange">tutorials</a>
+                <a href="https://search-git-user-app.now.sh/" className="orange">GitUser App</a>
+              </li>
+              <li>
+                <a href="https://rs-react-app.now.sh/" className="orange">Find Repo</a>
               </li>
             </ul>
           </div>

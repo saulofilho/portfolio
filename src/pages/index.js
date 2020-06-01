@@ -37,6 +37,9 @@ const IndexPage = ({
                 <a href="https://instaxmmrs.com/" className="orange">Instaxmmrs</a>
               </li>
               <li>
+                <a href="https://jessycasilva.net/" className="orange">Jessyca Creative</a>
+              </li>
+              <li>
                 <a href="https://www.decoskin.com/" className="orange">DecoSkin</a>
               </li>
               <li>

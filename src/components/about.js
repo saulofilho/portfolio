@@ -26,7 +26,7 @@ const about = () => {
         Adonis, Jest, Storybook, P5, Git,
         Webpack, Gulp, Docker, Regex, JSONt, Markdown, CLI, JAMStack, MERNStack,
         GraphQL, PWA, SPA,
-        SQL (MySQL, SQLite, Pstgres), NoSQL (MongoDB), CMS (WordPress, VTEX,
+        SQL (MySQL, SQLite, Postgres), NoSQL (MongoDB), CMS (WordPress, VTEX,
         Squarespace, Netlify CMS).
         <br />
         <br />

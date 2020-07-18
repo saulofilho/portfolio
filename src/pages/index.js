@@ -46,7 +46,7 @@ const IndexPage = ({
                 <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange">Brastemp B.blend Drinks & Brastemp B.blend Máquinas</a>
               </li>
               <li>
-                <a href="https://saulofilho.github.io/speedweed.bike/" className="orange">
+                <a href="https://speedweed.vercel.app/" className="orange">
                 <span role="img" aria-label="delicious">
                   🚴🏾
                 </span>

@@ -46,7 +46,7 @@ const IndexPage = ({
                 <a href="https://ffwd-site.netlify.app/" className="orange"> FFWD</a>,
               </li>
               <li>
-                <a href="https://app.netlify.com/sites/santacontabilidade-site-blog/overview" className="orange"> Santa Contabilidade Site/Blog</a>,
+                <a href="https://santacontabilidade-site-blog.netlify.app/" className="orange"> Santa Contabilidade Site/Blog</a>,
               </li>
               <li>
                 <a href="https://pagina-de-materiais.netlify.app/" className="orange"> Santa Contabilidade LP</a>,

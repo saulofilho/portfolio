@@ -13,7 +13,7 @@ const IndexPage = ({
 }) => {
 
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date)
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return (
@@ -28,47 +28,52 @@ const IndexPage = ({
         <About />
         <div className="work">
           <div className="developer">
-            <h2>Developer:</h2>
+            <h2>Dev:</h2>
             <ul className="work-list">
               <li>
-                <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>
+                <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
               </li>
               <li>
-                <a href="https://instaxmmrs.com/" className="orange">Instaxmmrs</a>
+                <a href="https://instaxmmrs.com/" className="orange"> Instaxmmrs</a>,
               </li>
               <li>
-                <a href="https://jessycasilva.net/" className="orange">Jessyca Creative</a>
+                <a href="https://jessycasilva.net/" className="orange"> Jessyca Creative</a>,
               </li>
               <li>
-                <a href="https://www.decoskin.com/" className="orange">DecoSkin</a>
+                <a href="https://www.decoskin.com/" className="orange"> DecoSkin</a>,
               </li>
               <li>
-                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange">Brastemp B.blend Drinks & Brastemp B.blend Máquinas</a>
+                <a href="https://ffwd-site.netlify.app/" className="orange"> FFWD</a>,
               </li>
               <li>
-                <a href="https://saulofilho.github.io/speedweed.bike/" className="orange">
-                <span role="img" aria-label="delicious">
-                  🚴🏾
-                </span>
-                </a>
+                <a href="https://app.netlify.com/sites/santacontabilidade-site-blog/overview" className="orange"> Santa Contabilidade Site/Blog</a>,
               </li>
               <li>
-                <a href="https://saulofilho.github.io/laughed-a-lot/" className="orange">LOL Generator</a>
+                <a href="https://pagina-de-materiais.netlify.app/" className="orange"> Santa Contabilidade LP</a>,
               </li>
               <li>
-                <a href="https://saulofilho.github.io/photos/" className="orange">Photos</a>
+                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange"> Brastemp B.blend Drinks/B.blend Máquinas</a>,
               </li>
               <li>
-                <a href="https://saulofilho.github.io/virose/" className="orange">Virose</a>
+                <a href="https://speedweed.vercel.app" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
               </li>
               <li>
-                <a href="https://saulofilho.github.io/TerrainGenerator/" className="orange">Terrain Generator</a>
+                <a href="https://saulofilho.github.io/laughed-a-lot/" className="orange"> LOL Generator</a>,
+              </li>
+              <li>
+                <a href="https://saulofilho.github.io/photos/" className="orange"> Photos</a>,
+              </li>
+              <li>
+                <a href="https://saulofilho.github.io/virose/" className="orange"> Virose</a>,
+              </li>
+              <li>
+                <a href="https://saulofilho.github.io/TerrainGenerator/" className="orange"> Terrain Generator</a>,
               </li>
               {/* <li>
                 <a href="https://saulofilho.github.io/Polar-Perlin-Noise-Loops/" className="orange">Polar Perlin Noise Loops</a>
               </li> */}
               <li>
-                <a href="https://saulofilho.github.io/SANDPILES/" className="orange">Sandpiles</a>
+                <a href="https://saulofilho.github.io/SANDPILES/" className="orange"> Sandpiles</a>,
               </li>
               {/* <li>
                 <a href="https://saulofilho.github.io/TheSexySoundOfTheLaundryMachine/" className="orange">
@@ -78,56 +83,58 @@ const IndexPage = ({
                 </a>
               </li> */}
               <li>
-                <a href="./TheCyberPlant" className="orange">The Cyber Plant</a>
+                <a href="./TheCyberPlant" className="orange"> The Cyber Plant</a>,
               </li>
               <li>
-                <a href="https://the-world-of-infos.now.sh/" className="orange">The World of Infos</a>
+                <a href="https://the-world-of-infos.now.sh/" className="orange"> The World of Infos</a>,
               </li>
               <li>
-                <a href="https://move-glitch.now.sh/" className="orange">move glitch</a>
+                <a href="https://move-glitch.now.sh/" className="orange"> move glitch</a>,
               </li>
               <li>
-                <a href="https://draw-canvas.now.sh/" className="orange">Draw Me Like One of Your French Girls beta</a>
+                <a href="https://draw-canvas.now.sh/" className="orange"> Draw Me Like One of Your French Girls beta</a>,
               </li>
               <li>
-                <a href="https://ubook-desafio.now.sh/" className="orange">Ubook</a>
+                <a href="https://ubook-desafio.now.sh/" className="orange"> Ubook</a>,
               </li>
               <li>
-                <a href="https://ghibli-api-connect.now.sh/" className="orange">Ghibli Page</a>
+                <a href="https://ghibli-api-connect.now.sh/" className="orange"> Ghibli</a>,
               </li>
               <li>
-                <a href="https://react-huntweb-tutorial.netlify.app/" className="orange">HuntWeb</a>
+                <a href="https://react-huntweb-tutorial.netlify.app/" className="orange"> HuntWeb</a>,
               </li>
               <li>
-                <a href="https://gb-app-react.now.sh/" className="orange">gb app beta</a>
+                <a href="https://gb-app-react.now.sh/" className="orange"> gb app beta</a>,
               </li>
               <li>
-                <a href="https://saas-app.now.sh/" className="orange">SaaS App</a>
+                <a href="https://saas-app.now.sh/" className="orange"> SaaS App</a>,
               </li>
               <li>
-                <a href="https://ong-app.now.sh/" className="orange">ong app beta</a>
+                <a href="https://ong-app.now.sh/" className="orange"> ong app beta</a>,
               </li>
               <li>
-                <a href="https://uploadappreact.herokuapp.com/" className="orange">img ➯ link app</a>
+                <a href="https://uploadappreact.herokuapp.com/" className="orange"> img ➯ link app</a>,
               </li>
               <li>
-                <a href="https://animated-moving.now.sh/" className="orange">follow the mouse</a>
+                <a href="https://animated-moving.now.sh/" className="orange"> follow the mouse</a>,
               </li>
               <li>
-                <a href="https://search-movie-app-one.now.sh/" className="orange">Movie Poster beta</a>
+                <a href="https://search-movie-app-one.now.sh/" className="orange"> Movie Poster beta</a>,
               </li>
               <li>
-                <a href="https://search-git-user-app.now.sh/" className="orange">GitUser App</a>
+                <a href="https://search-git-user-app.now.sh/" className="orange"> GitUser App</a>,
               </li>
               <li>
-                <a href="https://rs-react-app.now.sh/" className="orange">Find Repo</a>
+                <a href="https://rs-react-app.now.sh/" className="orange"> Find Repo</a>,
               </li>
             </ul>
           </div>
           <div className="mad-man">
-            <h2>Mad Man:</h2>
+            <h2>Ad:</h2>
             <div className="list">
-              {Posts}
+              <ul className="work-list">
+                {Posts}
+              </ul>
             </div>
           </div>
         </div>

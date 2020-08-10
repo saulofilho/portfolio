@@ -20,14 +20,11 @@ const about = () => {
         Cinema, music and entertainment scripts as well.
         <br />
         <br />
-        Since 2017, I have been working with HTML5, CSS3,
-        Vanilla/ECMA, Node,
-        Processing, and tools like SASS, React, Gatsby, Next, React Native/Expo, Redux,
-        Adonis, Jest, Storybook, P5, Git,
-        Webpack, Gulp, Docker, Regex, JSONt, Markdown, CLI, JAMStack, MERNStack,
-        GraphQL, PWA, SPA,
-        SQL (MySQL, SQLite, Postgres), NoSQL (MongoDB), CMS (WordPress, VTEX,
-        Squarespace, Netlify CMS).
+        Since 2017, I have been working with HTML5, CSS3, Vanilla/ECMA, Node,
+        Processing, and tools like SASS, React, Gatsby, Next, React Native/Expo,
+        Redux, Adonis, Jest, Storybook, P5, Git, Webpack, Gulp, Docker, Regex,
+        JAMStack, MERNStack, GraphQL, PWA, SPA, SQL (MySQL, SQLite, Postgres),
+        NoSQL (MongoDB).
         <br />
         <br />
         I spend some time having fun with generative art, and making robots,

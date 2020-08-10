@@ -17,6 +17,7 @@ body {
   outline: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: $font-family;
 }
 *:focus {
   outline: 0;
@@ -97,6 +98,9 @@ a:hover {
 }
 .work-list {
   padding-left: 1rem;
+}
+ul li {
+  display: inline;
 }
 .back-home {
   padding-top: 3rem;

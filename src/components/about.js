@@ -36,9 +36,9 @@ const about = () => {
         So, don't be shy like me, and feel free to say hello[at]saulofilho.com
         <br />
         <br />
-        In case that you would like to know details about <a href="https://www.linkedin.com/in/saulofilho/" className="green">my career</a>.
+        {/* In case that you would like to know details about <a href="https://www.linkedin.com/in/saulofilho/" className="green">my career</a>.
         <br />
-        <br />
+        <br /> */}
         Below is an abridged list of my favorite projects.
       </p>
     </div>

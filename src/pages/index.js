@@ -34,13 +34,22 @@ const IndexPage = ({
                 <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
               </li>
               <li>
+                <a href="http://bidaot.com.br/" className="orange"> BIDAOT</a>,
+              </li>
+              <li>
                 <a href="https://instaxmmrs.com/" className="orange"> Instaxmmrs</a>,
               </li>
               <li>
                 <a href="https://jessycasilva.net/" className="orange"> Jessyca Creative</a>,
               </li>
               <li>
+                <a href="https://manual-customer-success.vercel.app/" className="orange"> Customer Success</a>,
+              </li>
+              <li>
                 <a href="https://www.decoskin.com/" className="orange"> DecoSkin</a>,
+              </li>
+              <li>
+                <a href="https://manual-customer-success.vercel.app/" className="orange"> Manual Customer Success</a>,
               </li>
               <li>
                 <a href="https://ffwd-site.netlify.app/" className="orange"> FFWD</a>,

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import About from "../components/about"
+import About from "../components/About"
 
 const IndexPage = ({
   data: {
@@ -23,8 +23,6 @@ const IndexPage = ({
           <title>{site.siteMetadata.title}</title>
           <meta name="description" content={site.siteMetadata.description} />
         </Helmet>
-        <header>
-        </header>
         <About />
         <div className="work">
           <div className="developer">
@@ -34,22 +32,22 @@ const IndexPage = ({
                 <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
               </li>
               <li>
-                <a href="http://bidaot.com.br/" className="orange"> BIDAOT</a>,
+                <a href="https://bidaot.com.br/" className="orange"> BIDAOT</a>,
               </li>
               <li>
                 <a href="https://instaxmmrs.com/" className="orange"> Instaxmmrs</a>,
               </li>
               <li>
-                <a href="https://jessycasilva.net/" className="orange"> Jessyca Creative</a>,
-              </li>
-              <li>
-                <a href="https://manual-customer-success.vercel.app/" className="orange"> Customer Success</a>,
-              </li>
-              <li>
-                <a href="https://www.decoskin.com/" className="orange"> DecoSkin</a>,
+                <a href="https://jessycasilva.work/" className="orange"> Jessyca Creative</a>,
               </li>
               <li>
                 <a href="https://manual-customer-success.vercel.app/" className="orange"> Manual Customer Success</a>,
+              </li>
+              <li>
+                <a href="https://fecmt.comm.br" className="orange"> FECMT</a>,
+              </li>
+              <li>
+                <a href="https://www.decoskin.com/" className="orange"> DecoSkin</a>,
               </li>
               <li>
                 <a href="https://ffwd-site.netlify.app/" className="orange"> FFWD</a>,
@@ -61,7 +59,10 @@ const IndexPage = ({
                 <a href="https://pagina-de-materiais.netlify.app/" className="orange"> Santa Contabilidade LP</a>,
               </li>
               <li>
-                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange"> Brastemp B.blend Drinks/B.blend Máquinas</a>,
+                <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange"> Brastemp B.blend Drinks</a>,
+              </li>
+              <li>
+                <a href="https://loja.bblend.com.br/maquinas" className="orange"> Brastemp B.blend Máquinas</a>,
               </li>
               <li>
                 <a href="https://speedweed.vercel.app" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,

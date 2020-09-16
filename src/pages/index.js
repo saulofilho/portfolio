@@ -137,6 +137,9 @@ const IndexPage = ({
               <li>
                 <a href="https://rs-react-app.now.sh/" className="orange"> Find Repo</a>,
               </li>
+              <li>
+                <a href="https://boilerplate-p5js-react.vercel.app/" className="orange"> noise</a>,
+              </li>
             </ul>
           </div>
           <div className="mad-man">

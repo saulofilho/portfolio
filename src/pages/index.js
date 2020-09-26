@@ -44,7 +44,7 @@ const IndexPage = ({
                 <a href="https://manual-customer-success.vercel.app/" className="orange"> Manual Customer Success</a>,
               </li>
               <li>
-                <a href="https://fecmt.comm.br" className="orange"> FECMT</a>,
+                <a href="https://fecmt.com.br" className="orange"> FECMT</a>,
               </li>
               <li>
                 <a href="https://www.decoskin.com/" className="orange"> DecoSkin</a>,
@@ -53,10 +53,7 @@ const IndexPage = ({
                 <a href="https://ffwd-site.netlify.app/" className="orange"> FFWD</a>,
               </li>
               <li>
-                <a href="https://santacontabilidade-site-blog.netlify.app/" className="orange"> Santa Contabilidade Site/Blog</a>,
-              </li>
-              <li>
-                <a href="https://pagina-de-materiais.netlify.app/" className="orange"> Santa Contabilidade LP</a>,
+                <a href="https://santacontabilidade.com.br" className="orange"> Santa Contabilidade</a>,
               </li>
               <li>
                 <a href="https://loja.bblend.com.br/capsulas-alcool-skol-beats-gintonic-spritz" className="orange"> Brastemp B.blend Drinks</a>,

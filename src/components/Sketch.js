@@ -1,5 +1,7 @@
-import React, { Component } from "react";
-import Sketch from "react-p5";
+import React, { Component } from "react"
+import loadable from '@loadable/component'
+
+const Sketch = loadable(() => import('react-p5'))
 
 export default class SketchTorus extends Component {
 

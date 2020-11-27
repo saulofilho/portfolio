@@ -8,6 +8,7 @@
     "url": "https://github.com/saulofilho/new-portfolio"
   },
   "dependencies": {
+    "@loadable/component": "^5.14.1",
     "caniuse-lite": "^1.0.30001161",
     "gatsby": "^2.24.65",
     "gatsby-plugin-dark-mode": "^1.1.2",

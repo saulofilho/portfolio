@@ -1,5 +1,5 @@
 import React from "react"
-import FooterWrapper from './footer'
+import FooterWrapper from './Footer'
 import 'prismjs/themes/prism-okaidia.css'
 
 export default ({ children }) => {

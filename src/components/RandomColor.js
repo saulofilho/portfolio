@@ -4,8 +4,8 @@ const randomColor = () => {
     return randomColor;
   }
 
-  const bgColor = document.body.style.backgroundColor = generateRandomColor();
-  const clColor = document.body.style.color = generateRandomColor();
+  document.body.style.backgroundColor = generateRandomColor();
+  document.body.style.color = generateRandomColor();
 
   // var divNova = document.createElement("p");
   // var conteudoNovo = document.createTextNode(bgColor);

@@ -1,5 +1,5 @@
 import "./src/styles/global.scss"
-import randomColor from "./src/components/randomColor"
+import randomColor from "./src/components/RandomColor"
 
 if (typeof window !== 'undefined') {
   randomColor();

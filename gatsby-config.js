@@ -40,7 +40,7 @@ module.exports = {
         background_color: `rgb(127, 246, 27`,
         theme_color: `rgb(127, 246, 27)`,
         display: `minimal-ui`,
-        icon: `static/assets/torus-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/torus-icon.png`,
       }
     },
     'gatsby-plugin-offline',

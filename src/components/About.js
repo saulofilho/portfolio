@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import './About.css'
+import './About.scss'
 
 const About = () => {
   return (
@@ -12,11 +12,11 @@ const About = () => {
         My name is <a href="https://satanicandsatanist.tumblr.com/" className="blue my-name">
           <b>Saulo Filho</b></a>.
           I'm a <a href="https://github.com/saulofilho" className="green">
-          Full Stack Javascript Developer
+          <Link to='/dev'>Full Stack Javascript Developer</Link>
         </a>.
         <br />
         <br />
-        A long time ago, I used to be (10+ years) a creative marketing professional, writing to advertising, content,
+        A long time ago, I used to be (10+ years) a <Link to='/ad'>creative</Link> marketing professional, writing to advertising, content,
         cinema, music and entertainment scripts.
         <br />
         <br />
@@ -28,15 +28,11 @@ const About = () => {
         Let’s get in touch for any projects inquiries or even to coding something odd.
         So, don't be shy like me, and feel free to say hello[at]saulofilho.com
       </p>
-      <br />
-      <ul>
-        <li>
-          <Link to='/dev'>Dev's work</Link>
-        </li>
-        <li>
-          <Link to='/ad'>Ad's work</Link>
-        </li>
-      </ul>
+      <p className="warn-about">
+        This World Wide Web generates random backgroundColor & color.
+        <br/>
+        In case of indistinguishable layout: F5.
+    </p>
     </div>
   );
 }

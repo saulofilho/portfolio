@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Saulo Filho, Creative Full Stack Javascript Developer`,
-    description: `Creative Full Stack Javascript Developer`,
+    title: `Saulo Filho, Full Stack Javascript Developer`,
+    description: `Full Stack Javascript Developer`,
     siteUrl: `https://saulofilho.com`,
     home: {
       title: `Hi! I'm Saulo Filho`,
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Saulo Filho, Creative Full Stack Javascript Developer`,
+        name: `Saulo Filho, Full Stack Javascript Developer`,
         short_name: `saulofilho`,
         start_url: `/`,
         background_color: `rgb(127, 246, 27`,

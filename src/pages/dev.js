@@ -24,6 +24,9 @@ const DevPage = ({
               <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
             </li>
             <li>
+              <a href="http://botanicdailydata.com/" className="orange">Botanic Daily Data</a>,
+            </li>
+            <li>
               <a href="https://bidaot.com.br/" className="orange"> BIDAOT</a>,
             </li>
             <li>
@@ -54,7 +57,7 @@ const DevPage = ({
               <a href="https://loja.bblend.com.br/maquinas" className="orange"> Brastemp B.blend Máquinas</a>,
             </li>
             <li>
-              <a href="https://speedweed.vercel.app" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
+              <a href="https://spdwd.xyz/" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
             </li>
             <li>
               <a href="https://saulofilho.github.io/laughed-a-lot/" className="orange"> LOL Generator</a>,

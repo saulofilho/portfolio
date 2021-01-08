@@ -30,9 +30,10 @@ const About = () => {
       </p>
       <p className="warn-about">
         This World Wide Web generates random backgroundColor & color.
-        <br/>
+        <br />
         In case of indistinguishable layout: F5.
     </p>
+      <p className="no-home">NO PLACE FOR RACISM, HOMOPHOBIA, FASCISM, SEXISM, HATE.</p>
     </div>
   );
 }

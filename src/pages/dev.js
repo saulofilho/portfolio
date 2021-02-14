@@ -132,6 +132,9 @@ const DevPage = ({
             <li>
               <a href="https://boilerplate-p5js-react.vercel.app/" className="orange"> noise</a>,
             </li>
+            <li>
+              <a href="https://music-js.vercel.app/" className="orange"> music</a>,
+            </li>
           </ul>
         </div>
         <div className="back-home">

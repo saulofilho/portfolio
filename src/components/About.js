@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about">
       <p>
-        Olá. :)
+        Olá.
         <br />
         <br />
         My name is <a href="https://satanicandsatanist.tumblr.com/" className="blue my-name">
@@ -18,11 +18,6 @@ const About = () => {
         <br />
         A long time ago, I used to be (10+ years) a <Link to='/ad'>creative</Link> marketing professional, writing to advertising, content,
         cinema, music and entertainment scripts.
-        <br />
-        <br />
-        Nowadays I've been working at <a href="https://www.dropsmart.com.br"
-          className="green">DropSmart</a> as front end and at <a href="https://www.buenavistalab.com"
-            className="green">Buena Vista Lab</a> as full stack.
         <br />
         <br />
         Let’s get in touch for any projects inquiries or even to coding something odd.

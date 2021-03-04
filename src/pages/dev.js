@@ -57,6 +57,9 @@ const DevPage = ({
               <a href="https://loja.bblend.com.br/maquinas" className="orange"> Brastemp B.blend Máquinas</a>,
             </li>
             <li>
+              <a href="https://badcompany.io/" className="orange"> bad company</a>,
+            </li>
+            <li>
               <a href="https://spdwd.xyz/" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
             </li>
             <li>

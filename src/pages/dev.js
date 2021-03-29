@@ -138,6 +138,12 @@ const DevPage = ({
             <li>
               <a href="https://music-js.vercel.app/" className="orange"> music</a>,
             </li>
+            <li>
+              <a href="https://chatnilson.vercel.app/" className="orange"> Chat Bot</a>,
+            </li>
+            <li>
+              <a href="https://spotz-car.vercel.app/" className="orange"> Find Your Car</a>,
+            </li>
           </ul>
         </div>
         <div className="back-home">

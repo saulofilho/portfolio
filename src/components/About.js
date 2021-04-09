@@ -9,7 +9,7 @@ const About = () => {
         Olá.
         <br />
         <br />
-        My name is <a href="https://satanicandsatanist.tumblr.com/" className="blue my-name">
+        My name is <a href="https://github.com/saulofilho" className="blue my-name">
           <b>Saulo Filho</b></a>.
           I'm a <a href="https://github.com/saulofilho" className="green">
           <Link to='/dev'>Full Stack Javascript Developer</Link>

@@ -144,6 +144,9 @@ const DevPage = ({
             <li>
               <a href="https://spotz-car.vercel.app/" className="orange"> Find Your Car</a>,
             </li>
+            <li>
+              <a href="https://githubstarsapp.vercel.app/" className="orange"> GitHubStars</a>,
+            </li>
           </ul>
         </div>
         <div className="back-home">

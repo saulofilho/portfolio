@@ -147,6 +147,9 @@ const DevPage = ({
             <li>
               <a href="https://githubstarsapp.vercel.app/" className="orange"> GitHubStars</a>,
             </li>
+            <li>
+              <a href="https://myfavoritesapp.vercel.app/" className="orange"> ⭐My Favorites⭐</a>,
+            </li>
           </ul>
         </div>
         <div className="back-home">

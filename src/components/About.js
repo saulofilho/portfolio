@@ -12,7 +12,7 @@ const About = () => {
         My name is <a href="https://github.com/saulofilho" className="blue my-name">
           <b>Saulo Filho</b></a>.
           I'm a <a href="https://github.com/saulofilho" className="green">
-          <Link to='/dev'>Full Stack Javascript Developer</Link>
+          <Link to='/dev'>Full Stack Javascript, Ruby, Python and Processing Developer</Link>
         </a>.
         <br />
         <br />

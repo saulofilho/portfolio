@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Saulo Filho, Full Stack Javascript Developer`,
-    description: `Full Stack Javascript Developer`,
+    description: `Full Stack Javascript, Ruby, Python and Processing  Developer`,
     siteUrl: `https://saulofilho.com`,
     home: {
       title: `Hi! I'm Saulo Filho`,
       description: `Olá. :)
 
-      My name is Saulo Filho. I'm a Creative Full Stack Javascript Developer.
+      My name is Saulo Filho. I'm a Creative Full Stack Javascript, Ruby, Python and Processing Developer.
 
       I used to be (10+ years) a Creative Marketing Professional, writing to
       advertising and content.

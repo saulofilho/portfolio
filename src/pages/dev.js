@@ -30,6 +30,9 @@ const DevPage = ({
               <a href="https://bidaot.com.br/" className="orange"> BIDAOT</a>,
             </li>
             <li>
+              <a href="https://zinetrip.site/" className="orange"> zinetrip</a>,
+            </li>
+            <li>
               <a href="https://instaxmmrs.com/" className="orange"> Instaxmmrs</a>,
             </li>
             <li>

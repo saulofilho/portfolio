@@ -5,13 +5,13 @@ import './About.scss'
 const About = () => {
   return (
     <div className="about">
-      <p>
+      {/* <p>
         Olá.
         <br />
         <br />
         My name is <a href="https://github.com/saulofilho" className="blue my-name">
           <b>Saulo Filho</b></a>.
-          I'm a <a href="https://github.com/saulofilho" className="green">
+        I'm a <a href="https://github.com/saulofilho" className="green">
           <Link to='/dev'>Full Stack Javascript, Ruby, Python, Processing and IoT developer.</Link>
         </a>.
         <br />
@@ -27,8 +27,59 @@ const About = () => {
         This World Wide Web generates random backgroundColor & color.
         <br />
         In case of indistinguishable layout: F5.
-    </p>
-      <p className="no-home">NO PLACE FOR RACISM, HOMOPHOBIA, FASCISM, SEXISM, HATE.</p>
+      </p>
+      <p className="no-home">NO PLACE FOR RACISM, HOMOPHOBIA, FASCISM, SEXISM, HATE.</p> */}
+      <pre className="ascii-art">
+{/* .          c,_.--.,y <br />
+.            7 a.a( <br />
+.           (   ,_Y) <br />
+.           :  '---; <br />
+.       ___.'\.  - ( <br />
+.     .'"""S,._'--'_2..,_ <br />
+.     |    ':::::=:::::  \ <br />
+.     .     f== ;-,---.' T <br />
+.      Y.   r,-,_/_      | <br />
+.      |:\___.---' '---./ <br />
+.      |'`             ) <br />
+.       \             , <br />
+.       ':;,.________.;L <br />
+.       /  '---------' | <br />
+.       |              \ <br />
+.       L---'-,--.-'--,-' <br />
+.        T    /   \   Y <br />
+.        |   Y    ,   | <br />
+.        |   \    (   | <br />
+.        (   )     \,_L <br />
+.        7-./      )  `, <br />
+.      /  _(      '._  \ <br />
+.     '---'           '--' <br /> */}
+
+#                            ,.--------._                                            # <br />
+#                           /            ''.                                         # <br />
+#                         ,'                \     |"\                /\          /\  # <br />
+#                /"|     /                   \    |__"              ( \\        // ) # <br />
+#               "_"|    /           z#####z   \  //                  \ \\      // /  # <br />
+#                 \\  #####        ##------".  \//                    \_\\||||//_/   # <br />
+#                  \\/-----\     /          ".  \                      \/ _  _ \     # <br />
+#                   \|      \   |   ,,--..       \                    \/|(O)(O)|     # <br />
+#                   | ,.--._ \  (  | ##   \)      \                  \/ |      |     # <br />
+#                   |(  ##  )/   \ `-....-//       |///////////////_\/  \      /     # <br />
+#                     '--'."      \                \              //     |____|      # <br />
+#                  /'    /         ) --.            \            ||     /      \     # <br />
+#               ,..|     \.________/    `-..         \   \       \|     \ 0  0 /     # <br />
+#            _,##/ |   ,/   /   \           \         \   \       U    / \_//_/      # <br />
+#          :###.-  |  ,/   /     \        /' ""\      .\        (     /              # <br />
+#         /####|   |   (.___________,---',/    |       |\=._____|  |_/               # <br />
+#        /#####|   |     \__|__|__|__|_,/             |####\    |  ||                # <br />
+#       /######\   \      \__________/                /#####|   \  ||                # <br />
+#      /|#######`. `\                                /#######\   | ||                # <br />
+#     /++\#########\  \                      _,'    _/#########\ | ||                # <br />
+#    /++++|#########|  \      .---..       ,/      ,'##########.\|_||                # <br />
+#   //++++|#########\.  \.              ,-/      ,'########,+++++\\_\\               # <br />
+#  /++++++|##########\.   '._        _,/       ,'######,''++++++++\                  # <br />
+# |+++++++|###########|       -----."        _'#######' +++++++++++\                 # <br />
+# |+++++++|############\.     \\     //      /#######/++++ S@yaN +++\                # <br />
+      </pre>
     </div>
   );
 }

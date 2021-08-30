@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Saulo Filho, Software Engineer`,
-    description: `Javascript, Ruby, Python, Processing && IoT`,
+    title: `Saulo Filho, Software Engineer. hello[at]saulofilho.com`,
+    description: `Javascript, Ruby, Python, Processing && IoT. Feel free to say hello[at]saulofilho.com`,
     siteUrl: `https://saulofilho.com`,
     home: {
       title: `Olá! My name is Saulo Filho. I'm a Software Engineer.`,
-      description: `Javascript, Ruby, Python, Processing && IoT`
+      description: `Javascript, Ruby, Python, Processing && IoT. Feel free to say hello[at]saulofilho.com`
     }
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Saulo Filho, Software Engineer`,
+        name: `Saulo Filho, Software Engineer. hello[at]saulofilho.com`,
         short_name: `saulofilho`,
         start_url: `/`,
         background_color: `rgb(127, 246, 27`,

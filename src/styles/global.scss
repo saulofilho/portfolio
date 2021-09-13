@@ -176,12 +176,3 @@ ul li {
     font-weight: 700;
   }
 }
-.ascii-art {
-  font-family: monospace;
-  white-space: pre;
-}
-@media (max-width: 500px) {
-  .ascii-art {
-    font-size: 8px;
-  }
-}

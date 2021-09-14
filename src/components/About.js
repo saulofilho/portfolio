@@ -29,7 +29,7 @@ const About = () => {
         In case of indistinguishable layout: F5.
       </p> */}
       <pre className="ascii-art">
-        # long live the hc           ,.--------._                                            # <br />
+        # hello[at]saulofilho.com    ,.--------._                                            # <br />
         #                           /            ''.                                         # <br />
         #                         ,'                \     |"\                /\          /\  # <br />
         #                /"|     /                   \    |__"              ( \\        // ) # <br />

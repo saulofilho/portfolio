@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Saulo Filho, Software Engineer. hello[at]saulofilho.com`,
     description: `Javascript, Ruby, Python, Processing && IoT. Feel free to say hello[at]saulofilho.com`,

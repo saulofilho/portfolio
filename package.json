@@ -1,11 +1,11 @@
 {
-  "name": "saulo-filho",
+  "name": "saulo-filho-portfolio",
   "description": "My new portfolio.",
-  "author": "Satanic & Satanist, Inc",
+  "author": "Saulo Filho",
   "version": "1.0.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saulofilho/new-portfolio"
+    "url": "https://github.com/saulofilho/portfolio"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",

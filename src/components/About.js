@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import './About.scss'
 
 const About = () => {
@@ -29,8 +29,8 @@ const About = () => {
         In case of indistinguishable layout: F5.
       </p> */}
       <pre className="ascii-art">
-        # hello[at]saulofilho.com    ,.--------._                                            # <br />
-        #                           /            ''.                                         # <br />
+        #<Link to='/dev'>ai, papi</Link>                  ,.--------._                                            # <br />
+        #<Link to='/ad'>old days</Link>                 /            ''.                                         # <br />
         #                         ,'                \     |"\                /\          /\  # <br />
         #                /"|     /                   \    |__"              ( \\        // ) # <br />
         #               "_"|    /           z#####z   \  //                  \ \\      // /  # <br />

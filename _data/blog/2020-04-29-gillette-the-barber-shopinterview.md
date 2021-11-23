@@ -14,7 +14,7 @@ For over a hundred years, Gillette have helped men get ready and out the door ea
 >
 >
 
-![barberHeader](/assets/barberheader.png "barber header")
+![barberHeader](/portfolio/assets/barberheader.png "barber header")
 
 
 
@@ -32,4 +32,4 @@ This difficult makes unemployed men more insecure in the moment of interview, hi
 
 
 
-![barberMain](/assets/barbermain.png "barber main")
+![barberMain](/portfolio/assets/barbermain.png "barber main")

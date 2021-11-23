@@ -60,7 +60,7 @@ const DevPage = ({
               <a href="https://loja.bblend.com.br/maquinas" className="orange"> Brastemp B.blend Máquinas</a>,
             </li>
             <li>
-              <a href="https://badcompany.io/" className="orange"> bad company</a>,
+              <a href="https://badcompany.io/" className="orange"> badcompany</a>,
             </li>
             <li>
               <a href="https://spdwd.xyz/" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
@@ -152,6 +152,12 @@ const DevPage = ({
             </li>
             <li>
               <a href="https://myfavoritesapp.vercel.app/" className="orange"> ⭐My Favorites⭐</a>,
+            </li>
+            <li>
+              <a href="https://wogofilmes.com.br/" className="orange"> WOGO Filmes</a>,
+            </li>
+            <li>
+              <a href="https://productlab.com.br/" className="orange"> ProductLab</a>,
             </li>
           </ul>
         </div>

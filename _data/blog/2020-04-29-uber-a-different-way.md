@@ -3,7 +3,7 @@ template: BlogPost
 path: /UberADifferentWay
 date: 2020-04-29T19:12:13.305Z
 title: "Uber: A Different Way"
-thumbnail: /assets/driversphotosshooting.gif
+thumbnail: /portfolio/assets/driversphotosshooting.gif
 ---
 ## Real stories of Real drivers.
 
@@ -31,7 +31,7 @@ Functional: the driver is the hero. He commands his life, please note that the d
 
 
 
-![](/assets/clock1.gif)
+![](/portfolio/assets/clock1.gif)
 
 
 
@@ -39,8 +39,8 @@ Emotional: photos exploring daily situations that explain the reason why each pe
 
 
 
-![](/assets/fbtwitternativefunctionalbanner.gif)
+![](/portfolio/assets/fbtwitternativefunctionalbanner.gif)
 
-![](/assets/uber-2018.png)
+![](/portfolio/assets/uber-2018.png)
 
-![](/assets/poster1.gif)
+![](/portfolio/assets/poster1.gif)

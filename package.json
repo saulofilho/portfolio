@@ -1,6 +1,6 @@
 {
   "name": "saulo-filho-portfolio",
-  "description": "My new portfolio.",
+  "description": "Portfolio.",
   "author": "Saulo Filho",
   "version": "1.0.0",
   "license": "MIT",
@@ -34,14 +34,14 @@
   "devDependencies": {
     "prettier": "^2.1.2"
   },
-  "homepage": "https://github.com/saulofilho/new-portfolio",
+  "homepage": "https://github.com/saulofilho/portfolio",
   "keywords": [
     "gatsby",
     "netlify cms"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saulofilho/new-portfolio"
+    "url": "git+https://github.com/saulofilho/portfolio"
   },
   "scripts": {
     "build": "gatsby build",

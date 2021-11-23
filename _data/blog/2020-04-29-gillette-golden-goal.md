@@ -13,16 +13,16 @@ Gillette launches the campaign Golden Goal, which aims to revert in resources to
 
 The action aims to revert the funds in training workshops and expansion of activities to accommodate even more participants on site - either through barber training (at an exclusive Gillette barbershop that will be built on site), training of sports instructors, lessons on american football, construction of medical areas, recreation or expansion of night projects with relatives of children through sports.
 
-![](/assets/ggoalsite_1170.png)
+![](/portfolio/assets/ggoalsite_1170.png)
 
 For the INJR, receiving the financial benefit that will be used in the preparation and implementation of projects aimed at children and families served is a great opportunity.
 
 With the inclusion of gillette within the framework of partners of the Institute, together with actions that the company will provide for the people who are benefited here, the social project only has to grow and provide new experiences.
 
-![](/assets/3.gif)
+![](/portfolio/assets/3.gif)
 
-![](/assets/gol1.gif)
+![](/portfolio/assets/gol1.gif)
 
-![](/assets/gol.gif)
+![](/portfolio/assets/gol.gif)
 
-![](/assets/img_2605_1600_c.jpg)
+![](/portfolio/assets/img_2605_1600_c.jpg)

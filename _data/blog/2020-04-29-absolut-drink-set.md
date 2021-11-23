@@ -9,10 +9,10 @@ To publicize the diversity and simplicity to make cocktails with absolut, we cre
 
 
 
-![](/assets/absolutdrinkset_garrafamanga_1250.jpg)
+![](/portfolio/assets/absolutdrinkset_garrafamanga_1250.jpg)
 
-![](/assets/absolutdrinkset_garrafatangerina_1250.jpg)
+![](/portfolio/assets/absolutdrinkset_garrafatangerina_1250.jpg)
 
-![](/assets/absolutdrinkset_garrafaspespectiva2_1250.jpg)
+![](/portfolio/assets/absolutdrinkset_garrafaspespectiva2_1250.jpg)
 
-![](/assets/absolutdrinkset_garrafas_1250.jpg)
+![](/portfolio/assets/absolutdrinkset_garrafas_1250.jpg)

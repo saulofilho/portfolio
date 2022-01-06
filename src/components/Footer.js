@@ -12,7 +12,7 @@ const FooterWrapper = () => {
         <div id="clColor"></div>
       </div>
       <p>
-        &copy; 2020 S&S &bull; From Pantanal
+        &copy; 2022 S&S &bull; From Pantanal
     <span role="img" aria-label="alligator"> 🐊 </span>
     to the world
     </p>

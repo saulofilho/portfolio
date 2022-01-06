@@ -21,6 +21,9 @@ const DevPage = ({
           <h2>Dev:</h2>
           <ul className="work-list">
             <li>
+              <a href="https://buenavistalab.com" className="orange">buenavistalab softwares</a>,
+            </li>
+            <li>
               <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
             </li>
             <li>
@@ -63,7 +66,7 @@ const DevPage = ({
               <a href="https://badcompany.io/" className="orange"> badcompany</a>,
             </li>
             <li>
-              <a href="https://spdwd.xyz/" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
+              <a href="https://spdwd.vercel.app/" className="orange"> <span role="img" aria-label="delicious">🚴🏾</span></a>,
             </li>
             <li>
               <a href="https://saulofilho.github.io/laughed-a-lot/" className="orange"> LOL Generator</a>,
@@ -151,7 +154,7 @@ const DevPage = ({
               <a href="https://githubstarsapp.vercel.app/" className="orange"> GitHubStars</a>,
             </li>
             <li>
-              <a href="https://myfavoritesapp.vercel.app/" className="orange"> ⭐My Favorites⭐</a>,
+              <a href="https://myfavoritesapp.vercel.app/" className="orange"> <span role="img" aria-label="delicious">⭐</span>My Favorites<span role="img" aria-label="delicious">⭐</span></a>,
             </li>
             <li>
               <a href="https://wogofilmes.com.br/" className="orange"> WOGO Filmes</a>,

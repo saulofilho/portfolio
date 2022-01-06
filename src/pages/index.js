@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import About from "../components/About"
+import FooterWrapper from '../components/Footer'
 
 const IndexPage = ({
   data: {
@@ -15,6 +16,7 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <About />
+      <FooterWrapper />
     </>
   )
 }

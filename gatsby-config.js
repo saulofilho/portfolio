@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
-    title: `Saulo Filho, Software Engineer. hello[at]saulofilho.com`,
-    description: `Javascript, Ruby, Python, Processing && IoT. Feel free to say hello[at]saulofilho.com`,
-    siteUrl: `https://saulofilho.com`,
+    title: `Saulo Filho, Software Engineer. github.com/saulofilho`,
+    description: `Javascript, Ruby, Python, Processing && IoT.`,
+    siteUrl: `https://saulofilho.github.io/portfolio/`,
     home: {
       title: `Olá! My name is Saulo Filho. I'm a Software Engineer.`,
       description: `Javascript, Ruby, Python, Processing && IoT. Feel free to say hello[at]saulofilho.com`
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Saulo Filho, Software Engineer. hello[at]saulofilho.com`,
+        name: `Saulo Filho, Software Engineer. github.com/saulofilho`,
         short_name: `saulofilho`,
         start_url: `/`,
         background_color: `rgb(127, 246, 27`,

@@ -29,8 +29,8 @@ const About = () => {
         In case of indistinguishable layout: F5.
       </p> */}
       <pre className="ascii-art">
-        #<Link to='/dev'>ai, papi</Link>                  ,.--------._                                            # <br />
-        #<Link to='/ad'>old days</Link>                 /            ''.                                         # <br />
+        # <Link to='/dev'>ai, papi</Link>                 ,.--------._                                           # <br />
+        # <Link to='/ad'>old days</Link>               /            ''.                                         # <br />
         #                         ,'                \     |"\                /\          /\  # <br />
         #                /"|     /                   \    |__"              ( \\        // ) # <br />
         #               "_"|    /           z#####z   \  //                  \ \\      // /  # <br />

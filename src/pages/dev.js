@@ -24,10 +24,10 @@ const DevPage = ({
               <a href="https://buenavistalab.com" className="orange">buenavistalab softwares</a>,
             </li>
             <li>
-              <a href="https://3d-primitives-experiment.now.sh/" className="orange">3D Primitives Experiment</a>,
+              <a href="https://3d-primitives-experiment.now.sh/" className="orange"> 3D Primitives Experiment</a>,
             </li>
             <li>
-              <a href="http://botanicdailydata.com/" className="orange">botanic daily data</a>,
+              <a href="http://botanicdailydata.com/" className="orange"> botanic daily data</a>,
             </li>
             <li>
               <a href="https://bidaot.com.br/" className="orange"> BIDAOT</a>,

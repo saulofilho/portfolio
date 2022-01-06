@@ -55,7 +55,6 @@ const About = () => {
         # |+++++++|###########|       -----."        _'#######' +++++++++++\                 # <br />
         # |+++++++|############\.     \\     //      /#######/++++++++++++++\                # <br />
       </pre>
-      <p className="no-home">NO PLACE FOR RACISM, HOMOPHOBIA, FASCISM, SEXISM, HATE.</p>
     </div>
   );
 }

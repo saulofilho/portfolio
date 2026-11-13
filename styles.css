@@ -2,23 +2,14 @@
   --blush: #FAEDE6; --peach: #F6DCB4; --rose-soft: #EDBFD3; --lavender: #D9C4E2;
   --pink: #F1A9D0; --tan: #E6C59A; --butter: #F8DCA3; --sand: #E2C08F; --cocoa: #34291A;
 
-  --bg: #FDF6F1; --hero-bg: #FAEDE6; --surface: #FFFFFF; --fg: #34291A; --muted: #7A6A58; --line: #EADBCF;
-  --btn-bg: #34291A; --btn-fg: #FDF6F1;
-  --glow-a: #F1A9D0; --glow-b: #D9C4E2; --glow-c: #F8DCA3;
+  --bg: #FDF3EC; --hero-bg: #FBEAE6; --surface: #FFFAF6; --fg: #34291A; --muted: #7A6A58; --line: #EFDCCD;
+  --btn-bg: #34291A; --btn-fg: #FDF3EC;
 
   --f-display: "Outfit", "Avenir Next", system-ui, sans-serif;
   --f-body: "DM Sans", system-ui, sans-serif;
   --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
   --max: 1120px;
   color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1F1810; --hero-bg: #241C13; --surface: #2A2117; --fg: #FAEDE6; --muted: #C2AE98; --line: #43362A;
-    --btn-bg: #FAEDE6; --btn-fg: #34291A;
-    --glow-a: #9C5C7E; --glow-b: #6E5B80; --glow-c: #8A6A3E;
-    color-scheme: dark;
-  }
 }
 
 * { box-sizing: border-box }
@@ -51,8 +42,18 @@ img { max-width: 100% }
 /* Hero */
 .hero { position: relative; overflow: hidden; isolation: isolate; background: var(--hero-bg);
   padding-top: env(safe-area-inset-top, 0px); padding-bottom: clamp(72px, 12vw, 140px) }
-.glow { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; filter: blur(70px) saturate(1.1) }
-.hero::after { content: ""; position: absolute; inset: auto 0 0; height: 120px; background: linear-gradient(transparent, var(--bg)); z-index: -1 }
+.glow { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; filter: blur(48px) }
+.hero::after { content: ""; position: absolute; inset: auto 0 0; height: 140px; background: linear-gradient(rgba(253, 243, 236, 0), var(--bg)); z-index: -1 }
+
+/* Wordmarks strip */
+.worked { display: grid; justify-items: center; gap: 28px; padding-block: 48px 24px; text-align: center }
+.wordmarks { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px 56px }
+.wordmarks li { font-family: var(--f-display); font-size: clamp(20px, 2.4vw, 28px); font-weight: 500; letter-spacing: -0.02em; color: var(--fg); opacity: .78 }
+
+/* Contact card */
+.contact-card { border-radius: 24px; padding: clamp(28px, 5vw, 56px); display: grid; gap: 24px;
+  background: radial-gradient(120% 140% at 0% 0%, var(--rose-soft), transparent 55%), radial-gradient(120% 140% at 100% 100%, var(--butter), transparent 55%), var(--peach) }
+.contact-card .section-head p { color: #5E4E3C }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 24px }
 .logo { font-family: var(--f-display); font-size: 24px; text-decoration: none; display: flex; align-items: center; gap: 8px }
 .logo i { width: 12px; height: 12px; border-radius: 50%; background: conic-gradient(var(--pink), var(--lavender), var(--butter), var(--pink)) }

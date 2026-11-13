@@ -1,128 +1,141 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Saulo Filho · Segurança de IA, AppSec e áudio</title>
-  <meta name="description" content="Portfólio de Saulo Filho: red teaming de LLMs, agentes de pentest, ferramentas de AppSec e firmwares para grooveboxes.">
-  <meta name="theme-color" content="#FDF6F1">
+  <title>Saulo Filho · AI security, AppSec and audio</title>
+  <meta name="description" content="Portfolio of Saulo Filho: LLM red teaming, pentest agents, AppSec tools and groovebox firmware.">
+  <meta name="theme-color" content="#FBEAE6">
+  <meta name="color-scheme" content="light">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=IBM+Plex+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip" href="#content">Skip to content</a>
 
-  <header class="hero" id="topo">
+  <header class="hero" id="top">
     <canvas class="glow" id="glow" aria-hidden="true"></canvas>
-    <nav class="nav container" aria-label="Principal">
-      <a class="logo" href="#topo"><i aria-hidden="true"></i>saulo filho</a>
+    <nav class="nav container" aria-label="Main">
+      <a class="logo" href="#top"><i aria-hidden="true"></i>saulo filho</a>
       <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
-        <span class="sr-only">Abrir menu</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
       </button>
       <ul class="menu" id="menu">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#foco">Foco</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#focus">Focus</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <a class="btn nav-cta" href="#contato">Contato <span aria-hidden="true">→</span></a>
+      <a class="btn nav-cta" href="#contact">Contact <span aria-hidden="true">→</span></a>
     </nav>
 
     <div class="hero-copy container">
       <span class="label label-strong">Cybersecurity Software Engineer · TOTVS</span>
-      <h1>Ferramentas para deixar a IA mais segura, e máquinas que fazem música</h1>
-      <p>Construo ferramentas de red teaming para LLMs, agentes de pentest com limites que o modelo não pode furar e scanners de AppSec que rodam na sua máquina. Nas horas vagas, escrevo firmware para grooveboxes.</p>
+      <h1>Tools that make AI safer, and machines that make music</h1>
+      <p>I build red teaming tools for LLMs, pentest agents with limits the model cannot break, and AppSec scanners that run on your own machine. In my spare time, I write firmware for grooveboxes.</p>
       <div class="btns">
-        <a class="btn solid" href="#projetos">Ver projetos <span aria-hidden="true">→</span></a>
+        <a class="btn solid" href="#projects">See projects <span aria-hidden="true">→</span></a>
         <a class="btn" href="https://github.com/saulofilho" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </header>
 
-  <main id="conteudo">
-    <section class="section container" id="sobre">
+  <main id="content">
+    <section class="worked container" aria-label="Companies and brands">
+      <span class="label">Built software and campaigns for</span>
+      <ul class="wordmarks">
+        <li>TOTVS</li>
+        <li>RD Station</li>
+        <li>Stefanini</li>
+        <li>Brastemp</li>
+        <li>Uber</li>
+        <li>Volvo</li>
+      </ul>
+    </section>
+
+    <section class="section container" id="about">
       <div class="section-head">
-        <span class="label">Sobre</span>
-        <h2>Segurança que funciona em português</h2>
+        <span class="label">About</span>
+        <h2>Security that works in Portuguese</h2>
       </div>
       <div class="prose">
-        <p>Muitas ferramentas de segurança para IA são pensadas em inglês. Eu foco no contexto brasileiro: ataques escritos em português, detecção de CPF, CNPJ e Pix vazando em respostas, e o que a LGPD exige de quem coloca um chatbot no ar.</p>
-        <p>Escrevo software desde 2017, com passagens por e-commerce, saúde, setor público e hoje dados e segurança no RD Station Marketing, na TOTVS. Antes disso fui redator e estrategista digital, o que ainda aparece no jeito de explicar o que construo.</p>
-        <p>Gosto de ferramentas que dão o controle a quem usa. Por isso meus projetos rodam localmente, registram cada ação e entram no CI para quebrar o build quando algo piora.</p>
+        <p>Most AI security tools are designed in English. I focus on the Brazilian context: attacks written in Portuguese, detection of CPF, CNPJ and Pix data leaking in responses, and what Brazil's data protection law (LGPD) requires from anyone who ships a chatbot.</p>
+        <p>I have been writing software since 2017, across e-commerce, healthcare and the public sector. Today I work on data and security for RD Station Marketing at TOTVS. Before that I was a copywriter and digital strategist, which still shows in how I explain what I build.</p>
+        <p>I like tools that leave the person in control. My projects run locally, log every action and plug into CI to break the build when something gets worse.</p>
       </div>
     </section>
 
-    <section class="section container" id="foco">
+    <section class="section container" id="focus">
       <div class="section-head">
-        <span class="label">Foco atual</span>
-        <h2>Três frentes de trabalho</h2>
+        <span class="label">Current focus</span>
+        <h2>Three lines of work</h2>
       </div>
       <div class="focus">
         <article class="focus-item">
           <span class="dot" style="background:var(--pink)"></span>
-          <h3>Red teaming de LLMs</h3>
-          <p>Ataques em PT-BR, honeypots para agentes e auditoria de servidores MCP.</p>
+          <h3>LLM red teaming</h3>
+          <p>Attacks in Brazilian Portuguese, honeypots for agents and audits of MCP servers.</p>
         </article>
         <article class="focus-item">
           <span class="dot" style="background:var(--lavender)"></span>
-          <h3>AppSec e pentest assistido</h3>
-          <p>Agentes que formam hipóteses enquanto escopo e permissões ficam numa camada separada do modelo.</p>
+          <h3>AppSec and assisted pentesting</h3>
+          <p>Agents that form hypotheses while scope and permissions live in a layer separate from the model.</p>
         </article>
         <article class="focus-item">
           <span class="dot" style="background:var(--butter)"></span>
-          <h3>Firmware de áudio</h3>
-          <p>Grooveboxes inteiras sintetizadas no chip do M-VAVE FM-1, com emulador no navegador.</p>
+          <h3>Audio firmware</h3>
+          <p>Complete grooveboxes synthesized on the M-VAVE FM-1 chip, with an in-browser emulator.</p>
         </article>
       </div>
     </section>
 
-    <section class="section container" id="projetos">
+    <section class="section container" id="projects">
       <div class="section-head">
-        <span class="label">Projetos</span>
-        <h2>Segurança e IA</h2>
+        <span class="label">Projects</span>
+        <h2>Security and AI</h2>
       </div>
       <div class="cards">
         <article class="card peach">
           <span class="label">Red teaming · Python</span>
           <h3>Caipora</h3>
-          <p>Ataca chatbots com prompts em português, procura dados pessoais brasileiros nas respostas, coloca agentes num honeypot e audita servidores MCP. Roda no CI.</p>
+          <p>Attacks chatbots with Portuguese prompts, looks for Brazilian personal data in the answers, puts agents in a honeypot and audits MCP servers. Runs in CI.</p>
           <ul class="chips"><li>Python</li><li>LLMs</li><li>MCP</li><li>LGPD</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/caipora/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
-            <a class="btn ghost" href="https://github.com/saulofilho/caipora" target="_blank" rel="noopener">Código</a>
+            <a class="btn" href="https://saulofilho.github.io/caipora/" target="_blank" rel="noopener">Website <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/caipora" target="_blank" rel="noopener">Code</a>
           </div>
         </article>
         <article class="card lav">
-          <span class="label">Pentest · Agente de IA</span>
+          <span class="label">Pentest · AI agent</span>
           <h3>scopehound</h3>
-          <p>Agente de pentest guiado por uma pessoa. O modelo propõe hipóteses e ações; escopo e limites são impostos fora dele, e tudo fica registrado no projeto.</p>
-          <ul class="chips"><li>Python</li><li>Agentes</li><li>Pentest</li></ul>
+          <p>A human-led pentest agent. The model proposes hypotheses and actions; scope and limits are enforced outside it, and every action is recorded in the project.</p>
+          <ul class="chips"><li>Python</li><li>Agents</li><li>Pentest</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/scopehound/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
-            <a class="btn ghost" href="https://github.com/saulofilho/scopehound" target="_blank" rel="noopener">Código</a>
+            <a class="btn" href="https://saulofilho.github.io/scopehound/" target="_blank" rel="noopener">Website <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/scopehound" target="_blank" rel="noopener">Code</a>
           </div>
         </article>
         <article class="card rose">
-          <span class="label">Avaliação de agentes · Ruby e Python</span>
+          <span class="label">Agent evals · Ruby and Python</span>
           <h3>agent-eval-planner</h3>
-          <p>Lê o contrato de um agente de IA e gera um plano de avaliação com ataques e critérios de falha, uma suíte JSONL executável e correções ligadas a cada teste.</p>
+          <p>Reads an AI agent's contract and writes an eval plan with attacks and fail criteria, an executable JSONL suite, and fixes tied to each test ID.</p>
           <ul class="chips"><li>Ruby</li><li>Python</li><li>Guardrails</li><li>Evals</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/agent-eval-planner/" target="_blank" rel="noopener">Versão Ruby <span aria-hidden="true">↗</span></a>
-            <a class="btn ghost" href="https://saulofilho.github.io/agent-eval-planner-python/" target="_blank" rel="noopener">Versão Python</a>
+            <a class="btn" href="https://saulofilho.github.io/agent-eval-planner/" target="_blank" rel="noopener">Ruby version <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://saulofilho.github.io/agent-eval-planner-python/" target="_blank" rel="noopener">Python version</a>
           </div>
         </article>
         <article class="card sand">
-          <span class="label">Pentest · Ruby e Python</span>
+          <span class="label">Pentest · Ruby and Python</span>
           <h3>Security Pentest Planner</h3>
-          <p>Recebe uma spec OpenAPI, código ou um design doc e devolve vetores de pentest, payloads e correções. Funciona como gem ou skill de IA.</p>
+          <p>Takes an OpenAPI spec, code or a design doc and returns pentest vectors, payloads and fixes. Works as a gem or as an AI skill.</p>
           <ul class="chips"><li>Ruby</li><li>Python</li><li>OpenAPI</li><li>AppSec</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/security-pentest-planner/" target="_blank" rel="noopener">Versão Ruby <span aria-hidden="true">↗</span></a>
-            <a class="btn ghost" href="https://saulofilho.github.io/security-pentest-planner-python/" target="_blank" rel="noopener">Versão Python</a>
+            <a class="btn" href="https://saulofilho.github.io/security-pentest-planner/" target="_blank" rel="noopener">Ruby version <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://saulofilho.github.io/security-pentest-planner-python/" target="_blank" rel="noopener">Python version</a>
           </div>
         </article>
       </div>
@@ -130,55 +143,55 @@
       <ul class="list">
         <li>
           <a href="https://saulofilho.github.io/pentest-harness/" target="_blank" rel="noopener">pentest-harness <span aria-hidden="true">↗</span></a>
-          <p>Orquestra testes de segurança autorizados com guarda de escopo e aprovação humana num pipeline LangGraph.</p>
+          <p>Orchestrates authorized security tests with a scope guard and human approval in a LangGraph pipeline.</p>
         </li>
         <li>
           <a href="https://saulofilho.github.io/hackbot/" target="_blank" rel="noopener">hackbot <span aria-hidden="true">↗</span></a>
-          <p>Agente ReAct que escolhe ferramentas de pentest, com guarda de escopo, limite de requisições e dry-run por padrão.</p>
+          <p>A ReAct agent that picks pentest tools, with a scope guard, request limits and dry-run by default.</p>
         </li>
         <li>
           <a href="https://saulofilho.github.io/exposure-canary/" target="_blank" rel="noopener">Exposure Canary <span aria-hidden="true">↗</span></a>
-          <p>Planta tokens de rastreio por URL, DNS ou e-mail nos seus ativos e gera relatório dos acessos. CLI e servidor MCP.</p>
+          <p>Plants URL, DNS or email tracking tokens in your own assets and reports every hit. CLI and MCP server.</p>
         </li>
         <li>
           <a href="https://secscan.ai.studio/" target="_blank" rel="noopener">SecScan <span aria-hidden="true">↗</span></a>
-          <p>Suíte de AppSec que roda na sua máquina: SAST, busca de segredos e relatórios SARIF com referências OWASP e CWE.</p>
+          <p>An AppSec suite that runs on your machine: SAST, secret scanning and SARIF reports with OWASP and CWE references.</p>
         </li>
         <li>
           <a href="https://webauditpro.ai.studio/" target="_blank" rel="noopener">WebAudit Pro <span aria-hidden="true">↗</span></a>
-          <p>Auditoria de sites com IA: SEO, segurança, Core Web Vitals, acessibilidade e LGPD.</p>
+          <p>AI-assisted website audits: SEO, security, Core Web Vitals, accessibility and LGPD.</p>
         </li>
         <li>
           <a href="https://saulofilho.github.io/routes_api_spec_generator/" target="_blank" rel="noopener">routes_api_spec_generator <span aria-hidden="true">↗</span></a>
-          <p>Lê rotas e controllers de APIs Rails e escreve specs RSpec prontas para o rswag.</p>
+          <p>Reads routes and controllers from Rails APIs and writes RSpec request specs ready for rswag.</p>
         </li>
         <li>
           <a href="https://saulofilho.github.io/prompt-engineering-ptbr/" target="_blank" rel="noopener">prompt-engineering-ptbr <span aria-hidden="true">↗</span></a>
-          <p>Laboratório aberto sobre escrever prompts em português e quanto isso custa em tokens.</p>
+          <p>An open lab on writing prompts in Brazilian Portuguese and what that costs in tokens.</p>
         </li>
       </ul>
 
       <div class="section-head sub">
-        <h2>Firmware e música</h2>
+        <h2>Firmware and music</h2>
       </div>
       <div class="cards">
         <article class="card butter">
           <span class="label">Firmware · M-VAVE FM-1</span>
           <h3>COQUÍ</h3>
-          <p>Groovebox latina e caribenha: congas, bongôs, timbales, güiro e clave sintetizados no FM-1, com um botão HUMAN que solta a mão do sequenciador.</p>
+          <p>A Latin and Caribbean groovebox: congas, bongos, timbales, güiro and clave synthesized on the FM-1, with a HUMAN knob that loosens the sequencer's hand.</p>
           <ul class="chips"><li>C</li><li>DSP</li><li>AC791N</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/coqui-fm1/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
-            <a class="btn ghost" href="https://github.com/saulofilho/coqui-fm1" target="_blank" rel="noopener">Código</a>
+            <a class="btn" href="https://saulofilho.github.io/coqui-fm1/" target="_blank" rel="noopener">Website <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/coqui-fm1" target="_blank" rel="noopener">Code</a>
           </div>
         </article>
         <article class="card lav">
           <span class="label">Firmware · M-VAVE FM-1</span>
           <h3>GL!TCH</h3>
-          <p>Groovebox neon-noir com seis escalas cyber, quatro faixas e sete fontes sonoras. Dá para ligar o firmware real no navegador, sem o aparelho.</p>
-          <ul class="chips"><li>C</li><li>Emulador web</li><li>Síntese</li></ul>
+          <p>A neon-noir groovebox with six cyber scales, four tracks and seven sound sources. You can boot the real firmware in your browser, no device needed.</p>
+          <ul class="chips"><li>C</li><li>Web emulator</li><li>Synthesis</li></ul>
           <div class="btns">
-            <a class="btn" href="https://saulofilho.github.io/glitch/emu/" target="_blank" rel="noopener">Tocar no navegador <span aria-hidden="true">↗</span></a>
+            <a class="btn" href="https://saulofilho.github.io/glitch/emu/" target="_blank" rel="noopener">Play in browser <span aria-hidden="true">↗</span></a>
             <a class="btn ghost" href="https://saulofilho.github.io/glitch/" target="_blank" rel="noopener">Hub</a>
           </div>
         </article>
@@ -187,101 +200,103 @@
       <ul class="list">
         <li>
           <a href="https://saulofilho.github.io/synth-firmware/" target="_blank" rel="noopener">synth-firmware <span aria-hidden="true">↗</span></a>
-          <p>Plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.</p>
+          <p>A Claude Code plugin that packages the COQUÍ method for building the next FM-1 firmware.</p>
         </li>
       </ul>
 
       <div class="section-head sub">
-        <h2>Outros</h2>
+        <h2>Other</h2>
       </div>
       <ul class="list">
         <li>
           <a href="https://mare-segura.ai.studio/" target="_blank" rel="noopener">MaréSegura <span aria-hidden="true">↗</span></a>
-          <p>Tábua de marés com navegação offline.</p>
+          <p>Tide tables with offline navigation.</p>
         </li>
         <li>
-          <span class="list-title">Livro de palavras cruzadas do Corinthians</span>
-          <p>Grades e PDF para impressão A4 gerados em Python.</p>
+          <span class="list-title">Corinthians crossword book</span>
+          <p>Puzzle grids and a print-ready A4 PDF generated in Python.</p>
         </li>
       </ul>
     </section>
 
-    <section class="section container" id="experiencia">
+    <section class="section container" id="experience">
       <div class="section-head">
-        <span class="label">Experiência</span>
-        <h2>Trajetória</h2>
+        <span class="label">Experience</span>
+        <h2>Career</h2>
       </div>
       <ol class="timeline">
         <li class="row">
-          <h3>Software Engineer · TOTVS</h3><span class="label">2026 — hoje</span>
+          <h3>Software Engineer · TOTVS</h3><span class="label">2026 — now</span>
           <ul>
-            <li>Backend no time de Multicanal do RD Station Marketing: e-mail, WhatsApp e SMS, do envio à análise.</li>
-            <li>Métricas no BigQuery e Data Lake, APIs multicanal na Data Platform e cliente Ruby.</li>
-            <li>Pentest da API e do Data Lake do time, com RFCs de correção.</li>
-            <li>Skills de IA internas: planejador de pentest, geração de specs de API e avaliação de agentes.</li>
+            <li>Backend on the Multichannel team at RD Station Marketing: email, WhatsApp and SMS, from send to analytics.</li>
+            <li>BigQuery and Data Lake metrics, multichannel APIs on the Data Platform and a Ruby client.</li>
+            <li>Pentest of the team's API and Data Lake, with RFCs for the fixes.</li>
+            <li>Internal AI skills: pentest planner, API spec generation and agent evaluation.</li>
           </ul>
         </li>
         <li class="row">
           <h3>Software Engineer · Stefanini</h3><span class="label">2024 — 2025</span>
           <ul>
-            <li>Sistemas internos da Coordenação-Geral de TI da Polícia Federal.</li>
-            <li>Plugins e otimização do Redmine em larga escala.</li>
-            <li>CI/CD com OpenShift, Kubernetes, Helm, GitLab, Jenkins e Backstage.</li>
+            <li>Internal systems for the IT department of Brazil's Federal Police.</li>
+            <li>Plugins and performance tuning for Redmine at large scale.</li>
+            <li>CI/CD with OpenShift, Kubernetes, Helm, GitLab, Jenkins and Backstage.</li>
           </ul>
         </li>
         <li class="row">
           <h3>Software Engineer · Ferreri</h3><span class="label">2021 — 2023</span>
           <ul>
-            <li>Backend em Ruby e Python com microsserviços, DDD e TDD.</li>
-            <li>Guia médico e de farmácia com teleconsulta: tempo de contratação do plano 90% menor.</li>
-            <li>Listagem de contratos 92% mais rápida e sistema legado reescrito 70% mais eficiente.</li>
-            <li>PLASC, ferramenta de Plan as Code para automatizar tarefas recorrentes de desenvolvimento.</li>
+            <li>Ruby and Python backend with microservices, DDD and TDD.</li>
+            <li>Medical and pharmacy guide with teleconsultations: health plan signup time cut by 90%.</li>
+            <li>Contract listing 92% faster and a rewritten legacy system 70% more efficient.</li>
+            <li>PLASC, a Plan as Code tool that automates recurring development tasks.</li>
           </ul>
         </li>
         <li class="row">
           <h3>Software Engineer · Dropsmart</h3><span class="label">2020</span>
           <ul>
-            <li>Full stack com Ruby, Node.js, React e React Native para criação de lojas e gestão de pedidos.</li>
-            <li>Testes automatizados que reduziram o tempo de teste em 60%.</li>
+            <li>Full stack with Ruby, Node.js, React and React Native for store creation and order management.</li>
+            <li>Automated tests that cut testing time by 60%.</li>
           </ul>
         </li>
         <li class="row">
           <h3>Software Engineer · Codeby</h3><span class="label">2019</span>
           <ul>
-            <li>Lojas VTEX para a Brastemp, com uma loja nova a cada 15 dias.</li>
+            <li>VTEX stores for Brastemp, shipping a new store every 15 days.</li>
           </ul>
         </li>
         <li class="row">
           <h3>Software Engineer · FECMT</h3><span class="label">2017 — 2018</span>
           <ul>
-            <li>Migração de PHP para JavaScript: custo 70% menor e sistema 90% mais rápido.</li>
+            <li>Migration from PHP to JavaScript: 70% lower cost and a system 90% faster.</li>
           </ul>
         </li>
         <li class="row">
-          <h3>Redação e estratégia digital · RD Station, Grey, Uber</h3><span class="label">2015 — 2016</span>
+          <h3>Copywriter and web strategist · RD Station, Grey, Uber</h3><span class="label">2015 — 2016</span>
           <ul>
-            <li>Campanhas, CRM e inbound para marcas como P&amp;G, Volvo, HBO e Uber, antes de migrar para engenharia.</li>
+            <li>Campaigns, CRM and inbound for brands such as P&amp;G, Volvo, HBO and Uber, before moving into engineering.</li>
           </ul>
         </li>
       </ol>
     </section>
 
-    <section class="section container contact" id="contato">
-      <div class="section-head">
-        <span class="label">Contato</span>
-        <h2>Vamos conversar</h2>
-        <p>Projetos de segurança de IA, AppSec ou áudio. Respondo por aqui:</p>
-      </div>
-      <div class="btns">
-        <a class="btn solid" href="https://www.linkedin.com/in/saulofilho/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
-        <a class="btn" href="https://github.com/saulofilho" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+    <section class="section container contact" id="contact">
+      <div class="contact-card">
+        <div class="section-head">
+          <span class="label">Contact</span>
+          <h2>Let's talk</h2>
+          <p>AI security, AppSec or audio projects. Reach me here:</p>
+        </div>
+        <div class="btns">
+          <a class="btn solid" href="https://www.linkedin.com/in/saulofilho/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="btn" href="https://github.com/saulofilho" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer container">
     <span>© 2026 Saulo Filho</span>
-    <a href="#topo">Voltar ao topo ↑</a>
+    <a href="#top">Back to top ↑</a>
   </footer>
 
   <script src="main.js"></script>

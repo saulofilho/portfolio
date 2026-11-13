@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Saulo Filho · Segurança de IA, AppSec e áudio</title>
+  <meta name="description" content="Portfólio de Saulo Filho: red teaming de LLMs, agentes de pentest, ferramentas de AppSec e firmwares para grooveboxes.">
+  <meta name="theme-color" content="#FDF6F1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="hero" id="topo">
+    <canvas class="glow" id="glow" aria-hidden="true"></canvas>
+    <nav class="nav container" aria-label="Principal">
+      <a class="logo" href="#topo"><i aria-hidden="true"></i>saulo filho</a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="sr-only">Abrir menu</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#foco">Foco</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn nav-cta" href="#contato">Contato <span aria-hidden="true">→</span></a>
+    </nav>
+
+    <div class="hero-copy container">
+      <span class="label label-strong">Cybersecurity Software Engineer · TOTVS</span>
+      <h1>Ferramentas para deixar a IA mais segura, e máquinas que fazem música</h1>
+      <p>Construo ferramentas de red teaming para LLMs, agentes de pentest com limites que o modelo não pode furar e scanners de AppSec que rodam na sua máquina. Nas horas vagas, escrevo firmware para grooveboxes.</p>
+      <div class="btns">
+        <a class="btn solid" href="#projetos">Ver projetos <span aria-hidden="true">→</span></a>
+        <a class="btn" href="https://github.com/saulofilho" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="section container" id="sobre">
+      <div class="section-head">
+        <span class="label">Sobre</span>
+        <h2>Segurança que funciona em português</h2>
+      </div>
+      <div class="prose">
+        <p>Muitas ferramentas de segurança para IA são pensadas em inglês. Eu foco no contexto brasileiro: ataques escritos em português, detecção de CPF, CNPJ e Pix vazando em respostas, e o que a LGPD exige de quem coloca um chatbot no ar.</p>
+        <p>Escrevo software desde 2017, com passagens por e-commerce, saúde, setor público e hoje dados e segurança no RD Station Marketing, na TOTVS. Antes disso fui redator e estrategista digital, o que ainda aparece no jeito de explicar o que construo.</p>
+        <p>Gosto de ferramentas que dão o controle a quem usa. Por isso meus projetos rodam localmente, registram cada ação e entram no CI para quebrar o build quando algo piora.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="foco">
+      <div class="section-head">
+        <span class="label">Foco atual</span>
+        <h2>Três frentes de trabalho</h2>
+      </div>
+      <div class="focus">
+        <article class="focus-item">
+          <span class="dot" style="background:var(--pink)"></span>
+          <h3>Red teaming de LLMs</h3>
+          <p>Ataques em PT-BR, honeypots para agentes e auditoria de servidores MCP.</p>
+        </article>
+        <article class="focus-item">
+          <span class="dot" style="background:var(--lavender)"></span>
+          <h3>AppSec e pentest assistido</h3>
+          <p>Agentes que formam hipóteses enquanto escopo e permissões ficam numa camada separada do modelo.</p>
+        </article>
+        <article class="focus-item">
+          <span class="dot" style="background:var(--butter)"></span>
+          <h3>Firmware de áudio</h3>
+          <p>Grooveboxes inteiras sintetizadas no chip do M-VAVE FM-1, com emulador no navegador.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-head">
+        <span class="label">Projetos</span>
+        <h2>Segurança e IA</h2>
+      </div>
+      <div class="cards">
+        <article class="card peach">
+          <span class="label">Red teaming · Python</span>
+          <h3>Caipora</h3>
+          <p>Ataca chatbots com prompts em português, procura dados pessoais brasileiros nas respostas, coloca agentes num honeypot e audita servidores MCP. Roda no CI.</p>
+          <ul class="chips"><li>Python</li><li>LLMs</li><li>MCP</li><li>LGPD</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/caipora/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/caipora" target="_blank" rel="noopener">Código</a>
+          </div>
+        </article>
+        <article class="card lav">
+          <span class="label">Pentest · Agente de IA</span>
+          <h3>scopehound</h3>
+          <p>Agente de pentest guiado por uma pessoa. O modelo propõe hipóteses e ações; escopo e limites são impostos fora dele, e tudo fica registrado no projeto.</p>
+          <ul class="chips"><li>Python</li><li>Agentes</li><li>Pentest</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/scopehound/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/scopehound" target="_blank" rel="noopener">Código</a>
+          </div>
+        </article>
+        <article class="card rose">
+          <span class="label">Avaliação de agentes · Ruby e Python</span>
+          <h3>agent-eval-planner</h3>
+          <p>Lê o contrato de um agente de IA e gera um plano de avaliação com ataques e critérios de falha, uma suíte JSONL executável e correções ligadas a cada teste.</p>
+          <ul class="chips"><li>Ruby</li><li>Python</li><li>Guardrails</li><li>Evals</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/agent-eval-planner/" target="_blank" rel="noopener">Versão Ruby <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://saulofilho.github.io/agent-eval-planner-python/" target="_blank" rel="noopener">Versão Python</a>
+          </div>
+        </article>
+        <article class="card sand">
+          <span class="label">Pentest · Ruby e Python</span>
+          <h3>Security Pentest Planner</h3>
+          <p>Recebe uma spec OpenAPI, código ou um design doc e devolve vetores de pentest, payloads e correções. Funciona como gem ou skill de IA.</p>
+          <ul class="chips"><li>Ruby</li><li>Python</li><li>OpenAPI</li><li>AppSec</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/security-pentest-planner/" target="_blank" rel="noopener">Versão Ruby <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://saulofilho.github.io/security-pentest-planner-python/" target="_blank" rel="noopener">Versão Python</a>
+          </div>
+        </article>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="https://saulofilho.github.io/pentest-harness/" target="_blank" rel="noopener">pentest-harness <span aria-hidden="true">↗</span></a>
+          <p>Orquestra testes de segurança autorizados com guarda de escopo e aprovação humana num pipeline LangGraph.</p>
+        </li>
+        <li>
+          <a href="https://saulofilho.github.io/hackbot/" target="_blank" rel="noopener">hackbot <span aria-hidden="true">↗</span></a>
+          <p>Agente ReAct que escolhe ferramentas de pentest, com guarda de escopo, limite de requisições e dry-run por padrão.</p>
+        </li>
+        <li>
+          <a href="https://saulofilho.github.io/exposure-canary/" target="_blank" rel="noopener">Exposure Canary <span aria-hidden="true">↗</span></a>
+          <p>Planta tokens de rastreio por URL, DNS ou e-mail nos seus ativos e gera relatório dos acessos. CLI e servidor MCP.</p>
+        </li>
+        <li>
+          <a href="https://secscan.ai.studio/" target="_blank" rel="noopener">SecScan <span aria-hidden="true">↗</span></a>
+          <p>Suíte de AppSec que roda na sua máquina: SAST, busca de segredos e relatórios SARIF com referências OWASP e CWE.</p>
+        </li>
+        <li>
+          <a href="https://webauditpro.ai.studio/" target="_blank" rel="noopener">WebAudit Pro <span aria-hidden="true">↗</span></a>
+          <p>Auditoria de sites com IA: SEO, segurança, Core Web Vitals, acessibilidade e LGPD.</p>
+        </li>
+        <li>
+          <a href="https://saulofilho.github.io/routes_api_spec_generator/" target="_blank" rel="noopener">routes_api_spec_generator <span aria-hidden="true">↗</span></a>
+          <p>Lê rotas e controllers de APIs Rails e escreve specs RSpec prontas para o rswag.</p>
+        </li>
+        <li>
+          <a href="https://saulofilho.github.io/prompt-engineering-ptbr/" target="_blank" rel="noopener">prompt-engineering-ptbr <span aria-hidden="true">↗</span></a>
+          <p>Laboratório aberto sobre escrever prompts em português e quanto isso custa em tokens.</p>
+        </li>
+      </ul>
+
+      <div class="section-head sub">
+        <h2>Firmware e música</h2>
+      </div>
+      <div class="cards">
+        <article class="card butter">
+          <span class="label">Firmware · M-VAVE FM-1</span>
+          <h3>COQUÍ</h3>
+          <p>Groovebox latina e caribenha: congas, bongôs, timbales, güiro e clave sintetizados no FM-1, com um botão HUMAN que solta a mão do sequenciador.</p>
+          <ul class="chips"><li>C</li><li>DSP</li><li>AC791N</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/coqui-fm1/" target="_blank" rel="noopener">Ver site <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://github.com/saulofilho/coqui-fm1" target="_blank" rel="noopener">Código</a>
+          </div>
+        </article>
+        <article class="card lav">
+          <span class="label">Firmware · M-VAVE FM-1</span>
+          <h3>GL!TCH</h3>
+          <p>Groovebox neon-noir com seis escalas cyber, quatro faixas e sete fontes sonoras. Dá para ligar o firmware real no navegador, sem o aparelho.</p>
+          <ul class="chips"><li>C</li><li>Emulador web</li><li>Síntese</li></ul>
+          <div class="btns">
+            <a class="btn" href="https://saulofilho.github.io/glitch/emu/" target="_blank" rel="noopener">Tocar no navegador <span aria-hidden="true">↗</span></a>
+            <a class="btn ghost" href="https://saulofilho.github.io/glitch/" target="_blank" rel="noopener">Hub</a>
+          </div>
+        </article>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="https://saulofilho.github.io/synth-firmware/" target="_blank" rel="noopener">synth-firmware <span aria-hidden="true">↗</span></a>
+          <p>Plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.</p>
+        </li>
+      </ul>
+
+      <div class="section-head sub">
+        <h2>Outros</h2>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="https://mare-segura.ai.studio/" target="_blank" rel="noopener">MaréSegura <span aria-hidden="true">↗</span></a>
+          <p>Tábua de marés com navegação offline.</p>
+        </li>
+        <li>
+          <span class="list-title">Livro de palavras cruzadas do Corinthians</span>
+          <p>Grades e PDF para impressão A4 gerados em Python.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section container" id="experiencia">
+      <div class="section-head">
+        <span class="label">Experiência</span>
+        <h2>Trajetória</h2>
+      </div>
+      <ol class="timeline">
+        <li class="row">
+          <h3>Software Engineer · TOTVS</h3><span class="label">2026 — hoje</span>
+          <ul>
+            <li>Backend no time de Multicanal do RD Station Marketing: e-mail, WhatsApp e SMS, do envio à análise.</li>
+            <li>Métricas no BigQuery e Data Lake, APIs multicanal na Data Platform e cliente Ruby.</li>
+            <li>Pentest da API e do Data Lake do time, com RFCs de correção.</li>
+            <li>Skills de IA internas: planejador de pentest, geração de specs de API e avaliação de agentes.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Software Engineer · Stefanini</h3><span class="label">2024 — 2025</span>
+          <ul>
+            <li>Sistemas internos da Coordenação-Geral de TI da Polícia Federal.</li>
+            <li>Plugins e otimização do Redmine em larga escala.</li>
+            <li>CI/CD com OpenShift, Kubernetes, Helm, GitLab, Jenkins e Backstage.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Software Engineer · Ferreri</h3><span class="label">2021 — 2023</span>
+          <ul>
+            <li>Backend em Ruby e Python com microsserviços, DDD e TDD.</li>
+            <li>Guia médico e de farmácia com teleconsulta: tempo de contratação do plano 90% menor.</li>
+            <li>Listagem de contratos 92% mais rápida e sistema legado reescrito 70% mais eficiente.</li>
+            <li>PLASC, ferramenta de Plan as Code para automatizar tarefas recorrentes de desenvolvimento.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Software Engineer · Dropsmart</h3><span class="label">2020</span>
+          <ul>
+            <li>Full stack com Ruby, Node.js, React e React Native para criação de lojas e gestão de pedidos.</li>
+            <li>Testes automatizados que reduziram o tempo de teste em 60%.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Software Engineer · Codeby</h3><span class="label">2019</span>
+          <ul>
+            <li>Lojas VTEX para a Brastemp, com uma loja nova a cada 15 dias.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Software Engineer · FECMT</h3><span class="label">2017 — 2018</span>
+          <ul>
+            <li>Migração de PHP para JavaScript: custo 70% menor e sistema 90% mais rápido.</li>
+          </ul>
+        </li>
+        <li class="row">
+          <h3>Redação e estratégia digital · RD Station, Grey, Uber</h3><span class="label">2015 — 2016</span>
+          <ul>
+            <li>Campanhas, CRM e inbound para marcas como P&amp;G, Volvo, HBO e Uber, antes de migrar para engenharia.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section container contact" id="contato">
+      <div class="section-head">
+        <span class="label">Contato</span>
+        <h2>Vamos conversar</h2>
+        <p>Projetos de segurança de IA, AppSec ou áudio. Respondo por aqui:</p>
+      </div>
+      <div class="btns">
+        <a class="btn solid" href="https://www.linkedin.com/in/saulofilho/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="btn" href="https://github.com/saulofilho" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Saulo Filho</span>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,3 +1,10 @@
+// Remove o service worker do portfólio antigo, se ainda estiver registrado
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.getRegistrations()
+    .then((regs) => regs.forEach((reg) => reg.unregister()))
+    .catch(() => {});
+}
+
 // Menu mobile
 const menuBtn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");

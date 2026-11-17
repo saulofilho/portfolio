@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Writing · Saulo Filho</title>
+  <meta name="description" content="Notes from Saulo Filho on security, AI and making things.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;650;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./">Saulo Filho <small>SF–1</small></a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="menu" id="menu">
+        <li><a href="./#about">About</a></li>
+        <li><a href="./#work">Work</a></li>
+        <li><a href="blog.html" aria-current="page">Writing</a></li>
+        <li><a href="./#connect">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container layout">
+    <aside class="toc" aria-label="Years">
+      <p class="label">Index</p>
+      <ol id="years"></ol>
+    </aside>
+
+    <main id="content">
+      <section class="intro">
+        <p class="label label-strong">Writing / Notes</p>
+        <h1>Writing.</h1>
+        <p class="lead">Notes on security, AI and the odd things I build on weekends. Mostly written so I don’t forget how I did it.</p>
+      </section>
+
+      <section class="section">
+        <ul class="posts" id="posts" data-group="year">
+          <li class="label">Loading posts…</li>
+        </ul>
+      </section>
+
+      <footer class="footer label">
+        <span>© 2026 Saulo Filho</span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>

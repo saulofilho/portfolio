@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Writing · Saulo Filho</title>
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;650;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./">Saulo Filho <small>SF–1</small></a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="menu" id="menu">
+        <li><a href="./#about">About</a></li>
+        <li><a href="./#work">Work</a></li>
+        <li><a href="blog.html" aria-current="page">Writing</a></li>
+        <li><a href="./#connect">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container layout">
+    <aside class="toc" aria-label="In this post">
+      <p class="label">Contents</p>
+      <ol id="post-toc"></ol>
+    </aside>
+
+    <main id="content">
+      <article class="post" id="post">
+        <p class="label">Loading…</p>
+      </article>
+
+      <nav class="pager" id="pager" aria-label="More posts"></nav>
+
+      <footer class="footer label">
+        <span>© 2026 Saulo Filho</span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="main.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>

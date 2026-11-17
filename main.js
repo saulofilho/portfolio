@@ -19,6 +19,39 @@ menu.addEventListener("click", (e) => {
   }
 });
 
+// Color button: cycles through palettes and remembers the choice
+(function () {
+  const themes = [
+    ["paper", "Paper", "#ffffff"],
+    ["lime", "Lime", "#D7FF3C"],
+    ["cobalt", "Cobalt", "#2340FF"],
+    ["bubblegum", "Bubblegum", "#FFB8DE"],
+    ["tomato", "Tomato", "#FF5232"],
+    ["mint", "Mint", "#A9F2D4"],
+    ["grape", "Grape", "#5A2BD8"],
+  ];
+  const btn = document.getElementById("theme-btn");
+  const name = document.getElementById("theme-name");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (!btn) return;
+  const root = document.documentElement;
+  let i = Math.max(0, themes.findIndex(([id]) => id === (root.dataset.theme || "paper")));
+
+  function apply() {
+    const [id, label, color] = themes[i];
+    if (id === "paper") delete root.dataset.theme; else root.dataset.theme = id;
+    name.textContent = label;
+    btn.setAttribute("aria-label", `Change colors (now ${label})`);
+    if (meta) meta.content = color;
+  }
+  btn.addEventListener("click", () => {
+    i = (i + 1) % themes.length;
+    apply();
+    try { localStorage.setItem("theme", themes[i][0]); } catch (_) {}
+  });
+  apply();
+})();
+
 // Highlights the index entry of the section being read
 function watchToc(toc) {
   const links = [...toc.querySelectorAll('a[href^="#"]')];

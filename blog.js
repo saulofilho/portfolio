@@ -94,6 +94,7 @@
       description,
       date: date && !isNaN(date) ? date : null,
       draft: String(data.draft).toLowerCase() === "true",
+      lang: data.lang || "",
       minutes: Math.max(1, Math.round(words / 220)),
     };
   }
@@ -124,6 +125,7 @@
 
   function postItem(p) {
     const li = el("li");
+    if (p.lang) li.lang = p.lang;
     const a = el("a", "post-link");
     a.href = postUrl(p);
     a.append(el("span", "label post-date", fmtShort(p.date)));
@@ -243,6 +245,7 @@
     }
 
     document.title = `${p.title} · Saulo Filho`;
+    if (p.lang) article.lang = p.lang;
     const back = el("a", "back label", "← Writing");
     back.href = "blog.html";
     const meta = el("p", "label post-meta");

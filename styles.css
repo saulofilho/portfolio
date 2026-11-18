@@ -15,16 +15,9 @@
   color-scheme: light;
 }
 
-/* Color palettes, switched by the button in the top bar */
-[data-theme="lime"]      { --bg: #D7FF3C; --fg: #102000 }
-[data-theme="cobalt"]    { --bg: #2340FF; --fg: #FFF4D6 }
-[data-theme="bubblegum"] { --bg: #FFB8DE; --fg: #47002B }
-[data-theme="tomato"]    { --bg: #FF5232; --fg: #2B0700 }
-[data-theme="mint"]      { --bg: #A9F2D4; --fg: #003827 }
-[data-theme="grape"]     { --bg: #5A2BD8; --fg: #FFE45C }
-/* Saturated palettes: secondary text stays close to full strength so it remains readable */
-:is([data-theme="cobalt"], [data-theme="tomato"], [data-theme="grape"]) { --ink: var(--fg); --muted: color-mix(in srgb, var(--fg) 90%, var(--bg)) }
-[data-theme] :is(body, .topbar, .menu) { transition: background-color .35s ease, color .35s ease }
+/* Custom colors (set by the Colors dialog). Low contrast pairs keep secondary text near full strength */
+[data-contrast="low"] { --ink: var(--fg); --muted: color-mix(in srgb, var(--fg) 90%, var(--bg)) }
+:is(body, .topbar, .menu) { transition: background-color .3s ease, color .3s ease }
 
 * { box-sizing: border-box }
 html { scroll-behavior: smooth; scroll-padding-top: 88px }
@@ -64,8 +57,60 @@ a.label:hover { color: var(--fg) }
 .theme-btn:hover { border-color: var(--fg) }
 .swatch { width: 16px; height: 16px; border-radius: 50%; border: 1px solid var(--fg);
   background: conic-gradient(#D7FF3C 0 60deg, #2340FF 0 120deg, #FFB8DE 0 180deg, #FF5232 0 240deg, #A9F2D4 0 300deg, #5A2BD8 0) }
-.theme-btn:active .swatch { transform: rotate(60deg) }
-.swatch { transition: transform .25s ease }
+.swatch { transition: transform .4s ease }
+.theme-btn:hover .swatch { transform: rotate(120deg) }
+
+/* Colors dialog */
+.colors { width: min(460px, calc(100% - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 1px solid var(--fg);
+  background: var(--bg); color: var(--fg); box-shadow: 10px 10px 0 color-mix(in srgb, var(--fg) 18%, transparent) }
+.colors::backdrop { background: color-mix(in srgb, var(--fg) 28%, transparent); backdrop-filter: blur(3px) }
+.colors[open] { animation: pop .22s ease-out }
+@keyframes pop { from { opacity: 0; transform: translateY(8px) scale(.98) } }
+.colors-inner { display: grid; gap: 24px; padding: 24px }
+.colors-head { position: relative; display: grid; gap: 6px; padding-right: 40px }
+.colors-head h2 { font-size: 30px; letter-spacing: -0.045em; line-height: 1.05 }
+.colors-x { position: absolute; top: -8px; right: -8px; width: 36px; height: 36px; font-size: 24px; line-height: 1; background: none;
+  border: 0; color: var(--fg); cursor: pointer }
+.colors-x:hover { background: var(--soft) }
+.colors fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 10px; min-width: 0 }
+.colors legend { padding: 0; margin-bottom: 10px }
+.preset-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px }
+.preset { display: grid; gap: 6px; padding: 0; background: none; border: 0; cursor: pointer; color: var(--fg); text-align: left }
+.preset-tile { display: grid; place-items: center; aspect-ratio: 4 / 3; background: var(--p-bg); color: var(--p-fg);
+  font-weight: 650; font-size: 22px; letter-spacing: -0.04em; border: 1px solid var(--line); transition: transform .15s ease }
+.preset:hover .preset-tile { transform: translateY(-2px) }
+.preset[aria-pressed="true"] .preset-tile { outline: 2px solid var(--fg); outline-offset: 2px }
+.preset-name { font-family: var(--f-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted) }
+.preset[aria-pressed="true"] .preset-name { color: var(--fg) }
+.field { display: grid; grid-template-columns: 1fr 40px 104px; align-items: center; gap: 10px; padding-block: 6px; border-bottom: 1px solid var(--line) }
+.field input[type="color"] { width: 40px; height: 32px; padding: 0; border: 1px solid var(--fg); background: none; cursor: pointer }
+.field input[type="color"]::-webkit-color-swatch-wrapper { padding: 2px }
+.field input[type="color"]::-webkit-color-swatch { border: 0 }
+.field input[type="color"]::-moz-color-swatch { border: 0 }
+.field input[type="text"] { font-family: var(--f-mono); font-size: 13px; text-transform: uppercase; width: 100%; padding: 6px 8px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--fg) }
+.field input[type="text"]:focus { border-color: var(--fg); outline: none }
+.field input[aria-invalid] { border-color: currentColor; border-style: dashed }
+.readout { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; padding-top: 4px }
+.readout strong { font-weight: 650; font-size: 20px; letter-spacing: -0.03em }
+.readout[data-level="warn"] strong::after { content: " ⚠" ; font-size: 15px }
+.colors-foot { display: flex; align-items: center; gap: 16px; border-top: 1px solid var(--fg); padding-top: 18px }
+.spacer { flex: 1 }
+.link-btn { font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .07em; background: none; border: 0;
+  padding: 6px 0; color: var(--muted); cursor: pointer }
+.link-btn:hover { color: var(--fg); text-decoration: underline; text-underline-offset: 4px }
+.solid-btn { font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .07em; background: var(--fg); color: var(--bg);
+  border: 1px solid var(--fg); padding: 9px 18px; cursor: pointer }
+.solid-btn:hover { background: transparent; color: var(--fg) }
+
+/* Embedded video in posts */
+.video { display: block; position: relative; overflow: hidden; margin: 4px 0; border: 1px solid var(--line); background: var(--soft) }
+.post-body .video img, .video iframe { display: block; width: 100%; height: 100%; object-fit: cover; border: 0 }
+.play { position: absolute; left: 12px; bottom: 12px; font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+  background: var(--fg); color: var(--bg); padding: 7px 12px; text-decoration: none }
+.video:hover .play { background: var(--bg); color: var(--fg); outline: 1px solid var(--fg) }
+.video:not(.short) { aspect-ratio: 16 / 9 }
+.video.short { aspect-ratio: 9 / 16; width: min(100%, 320px) }
 .menu-btn { display: none; font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
   background: none; border: 1px solid var(--line); padding: 6px 10px; cursor: pointer; color: var(--fg) }
 
@@ -183,6 +228,8 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1 }
   .menu-btn { display: block }
   .theme-name { display: none }
   .theme-btn { padding: 5px }
+  .colors-inner { padding: 20px; gap: 20px }
+  .field { grid-template-columns: 1fr 36px 92px }
   .topbar-inner { gap: 8px }
   .menu { position: absolute; top: calc(60px + env(safe-area-inset-top, 0px)); left: 0; right: 0; flex-direction: column;
     background: var(--bg); border-bottom: 1px solid var(--line); padding: 8px 16px 12px; display: none }

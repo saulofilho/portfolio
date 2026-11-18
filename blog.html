@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;650;700&family=JetBrains+Mono:wght@400;500&display=swap">
-  <script>try{var t=localStorage.getItem("theme");if(t&&t!=="paper")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <script>try{var c=JSON.parse(localStorage.getItem("colors")||"null"),r=document.documentElement;if(c&&/^#[0-9A-F]{6}$/i.test(c.bg)&&/^#[0-9A-F]{6}$/i.test(c.fg)){r.style.setProperty("--bg",c.bg);r.style.setProperty("--fg",c.fg);if(c.low)r.dataset.contrast="low"}}catch(e){}</script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
@@ -25,7 +25,7 @@
         <li><a href="blog.html" aria-current="page">Writing</a></li>
         <li><a href="./#connect">Contact</a></li>
       </ul>
-      <button class="theme-btn" id="theme-btn" type="button" aria-label="Change colors"><span class="swatch" aria-hidden="true"></span><span class="theme-name" id="theme-name">Paper</span></button>
+      <button class="theme-btn" id="theme-btn" type="button" aria-haspopup="dialog"><span class="swatch" aria-hidden="true"></span><span class="theme-name">Colors</span></button>
       <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     </div>
   </header>

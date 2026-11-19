@@ -44,6 +44,7 @@ No GitHub Pages, a lista de posts vem da API do GitHub (`/repos/saulofilho/portf
 | `main.js` | Menu mobile e índice lateral |
 | `styles.css` | Fundo branco, texto preto, Inter Tight e JetBrains Mono |
 | `.nojekyll` | Impede o Jekyll de converter os `.md` em HTML |
+| `b-side.html` | Lado B: o desenho em ASCII, linkado no fim do Let’s connect |
 | `assets/` | Ícones (favicon, iOS, Android) e `og.png`, a imagem 1200×630 que aparece ao compartilhar o link |
 
 HTML, CSS e JavaScript puros, sem build.

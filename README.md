@@ -14,6 +14,61 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 - **Let’s connect:** LinkedIn, GitHub, Writing e 押忍.
 - **押忍** (`osu.html`): uma página só com um desenho em ASCII.
 
+## Projetos
+
+### Studies
+
+- [prompt-engineering-ptbr](https://saulofilho.github.io/prompt-engineering-ptbr/): prompts escritos em português são legítimos e não precisam de tradução para serem levados a sério.
+- [support-your-localhost](https://github.com/saulofilho/support-your-localhost): ferramentas de segurança que você usa na nuvem e que também rodam 100% na sua máquina.
+
+### Planning and generation (sem LLM)
+
+- [agent-eval-planner](https://saulofilho.github.io/agent-eval-planner/): lê o contrato de um agente (system prompt, ferramentas, regras de fora do escopo) e monta um pacote de evals: prompts de ataque, critérios de passa/falha, uma suíte JSONL e correções.
+- [agent-eval-planner-python](https://saulofilho.github.io/agent-eval-planner-python/): a versão em Python, com a mesma saída. Também roda no GitHub Actions.
+- [security-pentest-planner](https://saulofilho.github.io/security-pentest-planner/): transforma specs OpenAPI, código ou design docs num plano de pentest: vetores de ataque, payloads, correções e RFCs para os itens estruturais.
+- [security-pentest-planner-python](https://saulofilho.github.io/security-pentest-planner-python/): a versão em Python: escopo, engajamento, riscos do contrato, plano, correções e RFCs seletivos.
+- [routes_api_spec_generator](https://saulofilho.github.io/routes_api_spec_generator/): lê as rotas e os controllers de uma API Rails e escreve request specs do rswag. Não precisa de arquivo OpenAPI.
+
+### Analysis and detection
+
+- [SecScan](https://secscan.ai.studio/): uma suíte de AppSec: SAST, matriz de segredos, fluxo de dados e quality gate, com saída em SARIF.
+- [WebAudit Pro](https://webauditpro.ai.studio/): audita um site em segurança, SEO, performance, acessibilidade e privacidade, com relatórios e diffs visuais.
+- [Exposure Canary](https://saulofilho.github.io/exposure-canary/): planta canary tokens (URL, DNS, e-mail) em ativos seus e avisa quando, e por quem, cada um foi tocado.
+
+### Offensive (só com autorização)
+
+- [scopehound](https://saulofilho.github.io/scopehound/): um agente de pentest com humano no loop. Escopo e limites ficam numa camada que o modelo não alcança, e toda ação é registrada.
+- [pentest-harness](https://saulofilho.github.io/pentest-harness/): orquestração com LangGraph para trabalho de AppSec autorizado, com guarda de escopo, aprovação humana e dry-run ligado por padrão.
+- [hackbot](https://saulofilho.github.io/hackbot/): um agente ReAct que escolhe ferramentas de segurança contra um alvo autorizado, com guarda de escopo e botão de desligar.
+- [Caipora](https://saulofilho.github.io/caipora/): red teaming de LLMs e agentes com sotaque brasileiro: ataques em português, detecção de CPF, CNPJ e Pix, um honeypot de agentes e auditoria de servidores MCP.
+
+### Firmware (M-VAVE FM-1)
+
+- [COQUÍ](https://saulofilho.github.io/coqui-fm1/): uma groovebox latina: congas, bongôs, timbales, güiro e clave, mais um botão HUMAN que solta a mão do sequenciador.
+- [BAILE](https://saulofilho.github.io/baile-fm1/): um tracker de funk: tamborzão, Volt Mix, funk 150, mandelão e brega funk, seis faixas, patterns encadeados numa música e 64 efeitos ao vivo.
+- [Afterglow](https://github.com/saulofilho/afterglow-fm1): um visualizador ao vivo para qualquer FM-1: som, notas, clock e botões, desenhados como painéis de linhas diagonais que caem. Em andamento.
+- [GL!TCH](https://saulofilho.github.io/glitch/): uma groovebox neon-noir com seis escalas cyber e sete fontes de som. Roda no navegador, sem precisar do aparelho.
+- [synth-firmware](https://saulofilho.github.io/synth-firmware/): um plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.
+
+### Apps
+
+- [MaréSegura](https://mare-segura.ai.studio/): previsão de marés em tempo real, dados do oceano ao vivo, alertas de folga sob a quilha e cartas náuticas que funcionam totalmente offline.
+
+## Textos
+
+- [Hello, world](https://saulofilho.github.io/portfolio/post.html?p=hello-world) (17 nov. 2026)
+- [A sua Inteligência Artificial é inteligente?](https://saulofilho.github.io/portfolio/post.html?p=a-sua-inteligencia-artificial-e-inteligente) (31 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/a-sua-intelig%C3%AAncia-artificial-%C3%A9-inteligente-235709afd1ea)
+- [Transformando ruído do time em música para os ouvidos com o Docker](https://saulofilho.github.io/portfolio/post.html?p=transformando-ruido-do-time-em-musica-com-docker) (14 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/transformando-ru%C3%ADdo-do-time-em-m%C3%BAsica-para-os-ouvidos-com-o-docker-42af7206833a)
+- [Usando a inteligência artificial para atacar a própria API](https://saulofilho.github.io/portfolio/post.html?p=usando-ia-para-atacar-a-propria-api) (3 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/usando-a-intelig%C3%AAncia-artificial-para-atacar-a-pr%C3%B3pria-api-acc7c343eb69)
+
+Todos os textos: https://saulofilho.github.io/portfolio/blog.html
+
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/saulofilho/)
+- [GitHub](https://github.com/saulofilho)
+- [押忍](https://saulofilho.github.io/portfolio/osu.html)
+
 ## Cores
 
 O botão **Colors**, no topo, abre um painel para escolher a cor do fundo e do texto:

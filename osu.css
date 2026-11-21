@@ -1,0 +1,76 @@
+/* 押忍: a terminal that reads back what your browser gives away */
+:root {
+  --bg: #000;
+  --fg: #3dff7a;
+  --dim: #1f9e4a;
+  --faint: #0f5a2a;
+  --hot: #c8ffd9;
+  --warn: #ffd84d;
+  --bad: #ff5a5a;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box }
+html { background: var(--bg) }
+body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--fg); font: 400 14px/1.6 var(--mono);
+  text-shadow: 0 0 6px rgba(61, 255, 122, .45); -webkit-font-smoothing: antialiased }
+a { color: var(--hot) }
+::selection { background: var(--fg); color: var(--bg); text-shadow: none }
+
+/* Matrix rain behind everything, CRT lines and vignette on top */
+#rain { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; opacity: .22; pointer-events: none }
+.crt { position: fixed; inset: 0; z-index: 3; pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0 2px, rgba(0, 0, 0, .28) 2px 3px),
+              radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .75) 100%) }
+
+.bar { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; gap: 16px; padding: 10px 20px;
+  background: rgba(0, 0, 0, .85); border-bottom: 1px solid var(--faint); font-size: 12px; color: var(--dim) }
+.bar a { color: var(--dim); text-decoration: none }
+.bar a:hover { color: var(--hot) }
+
+.term { position: relative; z-index: 1; max-width: 980px; margin: 0 auto; padding: 28px 20px 96px }
+.term h1 { margin: 0 0 4px; font-size: clamp(56px, 12vw, 120px); line-height: 1; font-weight: 700; letter-spacing: .02em;
+  color: var(--hot); text-shadow: 0 0 18px rgba(61, 255, 122, .8), 0 0 2px #fff }
+.line { white-space: pre-wrap; word-break: break-word; min-height: 1.6em }
+.prompt::before { content: "visitor@osu:~$ "; color: var(--dim) }
+.ok { color: var(--hot) }
+.warn { color: var(--warn); text-shadow: 0 0 6px rgba(255, 216, 77, .45) }
+.bad { color: var(--bad); text-shadow: 0 0 6px rgba(255, 90, 90, .45) }
+.muted { color: var(--dim) }
+.cursor::after { content: "█"; animation: blink 1s steps(1) infinite; margin-left: 1px }
+@keyframes blink { 50% { opacity: 0 } }
+
+.block { margin: 22px 0 6px; border: 1px solid var(--faint); background: rgba(0, 12, 4, .72) }
+.block-head { display: flex; justify-content: space-between; padding: 4px 12px; background: var(--faint); color: var(--hot);
+  font-size: 12px; letter-spacing: .12em; text-transform: uppercase }
+.rows { padding: 8px 12px }
+.row { display: grid; grid-template-columns: 22ch minmax(0, 1fr); gap: 12px; padding: 1px 0 }
+.k { color: var(--dim); overflow: hidden; white-space: nowrap }
+.k::after { content: " ........................................"; color: var(--faint) }
+.v { color: var(--hot); word-break: break-word }
+.v.new { animation: flash .6s ease-out }
+@keyframes flash { from { background: var(--fg); color: var(--bg) } }
+
+.id { margin: 18px 0; padding: 14px; border: 1px dashed var(--fg); text-align: center }
+.id strong { display: block; font-size: clamp(18px, 4vw, 30px); letter-spacing: .08em; color: var(--hot) }
+
+.art { container-type: inline-size; margin: 18px 0 0; padding: 16px 0; background: rgba(0, 0, 0, .82); box-shadow: 0 0 0 12px rgba(0, 0, 0, .82) }
+.art pre { margin: 0; font: inherit; font-size: clamp(4px, calc(100cqi / var(--w, 52)), 14px); line-height: 1.2; color: var(--fg);
+  text-shadow: 0 0 8px rgba(61, 255, 122, .7) }
+
+.skip { position: fixed; right: 16px; bottom: 14px; z-index: 2; font: inherit; font-size: 12px; color: var(--dim);
+  background: rgba(0, 0, 0, .85); border: 1px solid var(--faint); padding: 6px 10px; cursor: pointer }
+.skip:hover { color: var(--hot); border-color: var(--fg) }
+.skip[hidden] { display: none }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap }
+
+@media (max-width: 640px) {
+  body { font-size: 12.5px }
+  .term { padding: 20px 14px 80px }
+  .row { grid-template-columns: 15ch minmax(0, 1fr); gap: 8px }
+  .bar { padding: 10px 14px }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cursor::after, .v.new { animation: none }
+}

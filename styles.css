@@ -248,7 +248,3 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1 }
   html { scroll-behavior: auto }
 }
 
-/* 押忍 page: ASCII art that shrinks to fit the column */
-.ascii { margin: 0 0 64px; container-type: inline-size; overflow-x: auto; border-top: 1px solid var(--line); padding-top: 32px }
-.ascii pre { margin: 0; font-family: var(--f-mono); font-size: clamp(5px, 1.82cqi, 14px); line-height: 1.25; color: var(--ink) }
-.ascii a { color: var(--fg); text-underline-offset: 3px }

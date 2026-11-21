@@ -12,7 +12,7 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 - **Work:** projects grouped into Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1) and Apps.
 - **Writing:** the 5 most recent blog posts. The full list is on `blog.html`, grouped by year.
 - **Let’s connect:** LinkedIn, GitHub, Writing and 押忍.
-- **押忍** (`osu.html`): a page with just an ASCII drawing.
+- **押忍** (`osu.html`): a Matrix-style terminal that reads back what your browser hands to any site without asking: IP, provider and rough location, system, GPU, screen, language and timezone, battery, installed fonts, a fingerprint ID and, live, your cursor, clicks and keys. It ends on the ASCII drawing. Nothing is stored; only the IP lookup leaves the browser (geojs.io, with ipwho.is and ipinfo.io as fallbacks). Enter or space skips the animation, Esc goes home.
 
 ## Projects
 
@@ -130,7 +130,7 @@ Posts are built in the browser, and social networks don't run JavaScript. So a l
 | `index.html` | Home: About, Work, Writing and contact |
 | `blog.html` | All posts, grouped by year |
 | `post.html` | A single post |
-| `osu.html` | 押忍: the ASCII drawing, linked at the end of Let’s connect |
+| `osu.html`, `osu.css`, `osu.js` | 押忍: the terminal that shows the visitor's data and ends on the ASCII drawing. Standalone, it doesn't use `styles.css` or `main.js` |
 | `blog.js` | Reads the `.md` files in `posts/`, parses the front matter and renders with [marked](https://marked.js.org) |
 | `main.js` | Mobile menu, colors panel and side index |
 | `styles.css` | Site styles: Inter Tight and JetBrains Mono, colors derived from `--bg` and `--fg` |

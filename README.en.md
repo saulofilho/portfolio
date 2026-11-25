@@ -9,7 +9,7 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 ## Sections
 
 - **About:** the home page opens straight on the intro.
-- **Work:** projects grouped into Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1) and Apps.
+- **Work:** projects grouped into Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games and Apps.
 - **Writing:** the 5 most recent blog posts. The full list is on `blog.html`, grouped by year.
 - **Let’s connect:** LinkedIn, GitHub, Writing and 押忍.
 - **押忍** (`osu.html`): a Matrix-style terminal that reads back what your browser hands to any site without asking: IP, provider and rough location, system, GPU, screen, language and timezone, battery, installed fonts, a fingerprint ID and, live, your cursor, clicks and keys. It ends on the ASCII drawing. Nothing is stored; only the IP lookup leaves the browser (geojs.io, with ipwho.is and ipinfo.io as fallbacks). Enter or space skips the animation, Esc goes home.
@@ -19,7 +19,8 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 ### Studies
 
 - [prompt-engineering-ptbr](https://saulofilho.github.io/prompt-engineering-ptbr/): prompts written in Portuguese are legitimate, and they don’t need a translation to be taken seriously.
-- [support-your-localhost](https://github.com/saulofilho/support-your-localhost): security tools you can use in the cloud that also run 100% on your own machine.
+- [support-your-localhost](https://github.com/saulofilho/support-your-localhost): a hub of security tools that run 100% on your own machine. No cloud, no account, and your targets stay with you.
+- [Software Engineer Atlas](https://saulofilho.github.io/software-engineer-txt/): study notes, docs and papers on software engineering, from algorithms and system design to MCP and LGPD.
 
 ### Planning and generation (no LLM)
 
@@ -50,6 +51,10 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 - [GL!TCH](https://saulofilho.github.io/glitch/): a neon-noir groovebox with six cyber scales and seven sound sources. It boots in your browser, no device needed.
 - [synth-firmware](https://saulofilho.github.io/synth-firmware/): a Claude Code plugin that packages the COQUÍ method for building the next FM-1 firmware.
 
+### Games (in development)
+
+- [Hound.exe](https://saulofilho.github.io/hound-exe/): a 1-bit action metroidvania inside an infected computer. You play the hound from scopehound, sniffing and blasting bugs folder by folder down to the kernel. Planned for Steam.
+
 ### Apps
 
 - [MaréSegura](https://mare-segura.ai.studio/): real-time tide forecasts, live ocean data, under-keel clearance alerts and nautical charts that work fully offline.
@@ -58,7 +63,6 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 
 Most posts are in Portuguese.
 
-- [Hello, world](https://saulofilho.github.io/portfolio/post.html?p=hello-world) (Nov 17, 2026)
 - [A sua Inteligência Artificial é inteligente?](https://saulofilho.github.io/portfolio/post.html?p=a-sua-inteligencia-artificial-e-inteligente) (Aug 31, 2026), also on [Medium](https://medium.com/totvsdevelopers/a-sua-intelig%C3%AAncia-artificial-%C3%A9-inteligente-235709afd1ea)
 - [Transformando ruído do time em música para os ouvidos com o Docker](https://saulofilho.github.io/portfolio/post.html?p=transformando-ruido-do-time-em-musica-com-docker) (Aug 14, 2026), also on [Medium](https://medium.com/totvsdevelopers/transformando-ru%C3%ADdo-do-time-em-m%C3%BAsica-para-os-ouvidos-com-o-docker-42af7206833a)
 - [Usando a inteligência artificial para atacar a própria API](https://saulofilho.github.io/portfolio/post.html?p=usando-ia-para-atacar-a-propria-api) (Aug 3, 2026), also on [Medium](https://medium.com/totvsdevelopers/usando-a-intelig%C3%AAncia-artificial-para-atacar-a-pr%C3%B3pria-api-acc7c343eb69)

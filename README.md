@@ -9,7 +9,7 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 ## Seções
 
 - **About:** a home abre direto na apresentação.
-- **Work:** projetos agrupados em Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1) e Apps.
+- **Work:** projetos agrupados em Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games e Apps.
 - **Writing:** os 5 posts mais recentes do blog. A lista completa fica em `blog.html`, agrupada por ano.
 - **Let’s connect:** LinkedIn, GitHub, Writing e 押忍.
 - **押忍** (`osu.html`): um terminal estilo Matrix que lê em voz alta o que o navegador entrega a qualquer site, sem pedir permissão: IP, provedor e cidade aproximada, sistema, GPU, tela, idioma e fuso, bateria, fontes instaladas, um ID de fingerprint e, ao vivo, cursor, cliques e teclas. No fim aparece o desenho em ASCII. Nada é guardado; só a consulta de IP sai do navegador (geojs.io, com ipwho.is e ipinfo.io de reserva). Enter ou espaço pulam a animação, Esc volta para a home.
@@ -19,7 +19,8 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 ### Studies
 
 - [prompt-engineering-ptbr](https://saulofilho.github.io/prompt-engineering-ptbr/): prompts escritos em português são legítimos e não precisam de tradução para serem levados a sério.
-- [support-your-localhost](https://github.com/saulofilho/support-your-localhost): ferramentas de segurança que você usa na nuvem e que também rodam 100% na sua máquina.
+- [support-your-localhost](https://github.com/saulofilho/support-your-localhost): um hub de ferramentas de segurança que rodam 100% na sua máquina. Sem nuvem, sem conta, sem enviar seus alvos para ninguém.
+- [Software Engineer Atlas](https://saulofilho.github.io/software-engineer-txt/): anotações de estudo, docs e papers sobre engenharia de software, de algoritmos e system design a MCP e LGPD.
 
 ### Planning and generation (sem LLM)
 
@@ -50,13 +51,16 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 - [GL!TCH](https://saulofilho.github.io/glitch/): uma groovebox neon-noir com seis escalas cyber e sete fontes de som. Roda no navegador, sem precisar do aparelho.
 - [synth-firmware](https://saulofilho.github.io/synth-firmware/): um plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.
 
+### Games (em desenvolvimento)
+
+- [Hound.exe](https://saulofilho.github.io/hound-exe/): um metroidvania de ação em 1-bit dentro de um computador infectado. Você é o cão do scopehound, farejando e caçando bugs pasta por pasta até o kernel. Previsto para a Steam.
+
 ### Apps
 
 - [MaréSegura](https://mare-segura.ai.studio/): previsão de marés em tempo real, dados do oceano ao vivo, alertas de folga sob a quilha e cartas náuticas que funcionam totalmente offline.
 
 ## Textos
 
-- [Hello, world](https://saulofilho.github.io/portfolio/post.html?p=hello-world) (17 nov. 2026)
 - [A sua Inteligência Artificial é inteligente?](https://saulofilho.github.io/portfolio/post.html?p=a-sua-inteligencia-artificial-e-inteligente) (31 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/a-sua-intelig%C3%AAncia-artificial-%C3%A9-inteligente-235709afd1ea)
 - [Transformando ruído do time em música para os ouvidos com o Docker](https://saulofilho.github.io/portfolio/post.html?p=transformando-ruido-do-time-em-musica-com-docker) (14 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/transformando-ru%C3%ADdo-do-time-em-m%C3%BAsica-para-os-ouvidos-com-o-docker-42af7206833a)
 - [Usando a inteligência artificial para atacar a própria API](https://saulofilho.github.io/portfolio/post.html?p=usando-ia-para-atacar-a-propria-api) (3 ago. 2026), também no [Medium](https://medium.com/totvsdevelopers/usando-a-intelig%C3%AAncia-artificial-para-atacar-a-pr%C3%B3pria-api-acc7c343eb69)

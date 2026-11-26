@@ -50,6 +50,7 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 - [RIDDIM](https://saulofilho.github.io/riddim-fm1/): a roots reggae firmware: one drop, rockers, steppers and dub, a whole band synthesized on the FM-1 and a dub desk to version the tune while it plays.
 - [Afterglow](https://github.com/saulofilho/afterglow-fm1): a live visualizer for any FM-1: its sound, notes, clock and knobs, drawn as falling panels of diagonal lines. In progress.
 - [Spectral Relief](https://saulofilho.github.io/spectral-relief/): a music visualizer study for synths: the sound spectrum drawn as a halftone mountain range, for the FM-1 and Ableton Live.
+- [FLIPERAMA](https://github.com/saulofilho/fliperama-fm1): a neighbourhood arcade inside the FM-1: six sound chips, each with its own original game that the music plays by itself. In early development.
 - [GL!TCH](https://saulofilho.github.io/glitch/): a neon-noir groovebox with six cyber scales and seven sound sources. It boots in your browser, no device needed.
 - [synth-firmware](https://saulofilho.github.io/synth-firmware/): a Claude Code plugin that packages the COQUÍ method for building the next FM-1 firmware.
 
@@ -60,6 +61,7 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 ### Apps
 
 - [MaréSegura](https://mare-segura.ai.studio/): real-time tide forecasts, live ocean data, under-keel clearance alerts and nautical charts that work fully offline.
+- [Filtro EGA Dither](https://saulofilho.github.io/filtro-ega-dither/): turns photos into late-80s PC game art: tall 1:2 pixels, a short magenta palette and checkerboard dither.
 
 ### Client work (Buena Vista Lab)
 

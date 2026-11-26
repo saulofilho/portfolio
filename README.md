@@ -47,7 +47,9 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 
 - [COQUÍ](https://saulofilho.github.io/coqui-fm1/): uma groovebox latina: congas, bongôs, timbales, güiro e clave, mais um botão HUMAN que solta a mão do sequenciador.
 - [BAILE](https://saulofilho.github.io/baile-fm1/): um tracker de funk: tamborzão, Volt Mix, funk 150, mandelão e brega funk, seis faixas, patterns encadeados numa música e 64 efeitos ao vivo.
+- [RIDDIM](https://saulofilho.github.io/riddim-fm1/): um firmware de roots reggae: one drop, rockers, steppers e dub, uma banda inteira sintetizada no FM-1 e uma mesa de dub para fazer a versão enquanto a música toca.
 - [Afterglow](https://github.com/saulofilho/afterglow-fm1): um visualizador ao vivo para qualquer FM-1: som, notas, clock e botões, desenhados como painéis de linhas diagonais que caem. Em andamento.
+- [Spectral Relief](https://saulofilho.github.io/spectral-relief/): um estudo de visualizador de música para sintetizadores: o espectro do som desenhado como uma cordilheira em meio-tom, para o FM-1 e o Ableton Live.
 - [GL!TCH](https://saulofilho.github.io/glitch/): uma groovebox neon-noir com seis escalas cyber e sete fontes de som. Roda no navegador, sem precisar do aparelho.
 - [synth-firmware](https://saulofilho.github.io/synth-firmware/): um plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.
 

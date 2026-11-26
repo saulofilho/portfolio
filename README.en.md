@@ -9,7 +9,7 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 ## Sections
 
 - **About:** the home page opens straight on the intro.
-- **Work:** projects grouped into Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games and Apps.
+- **Work:** projects grouped into Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games, Apps, Client work and Advertising.
 - **Writing:** the 5 most recent blog posts. The full list is on `blog.html`, grouped by year.
 - **Let’s connect:** LinkedIn, GitHub, Writing and 押忍.
 - **押忍** (`osu.html`): a Matrix-style terminal that reads back what your browser hands to any site without asking: IP, provider and rough location, system, GPU, screen, language and timezone, battery, installed fonts, a fingerprint ID and, live, your cursor, clicks and keys. It ends on the ASCII drawing. Nothing is stored; only the IP lookup leaves the browser (geojs.io, with ipwho.is and ipinfo.io as fallbacks). Enter or space skips the animation, Esc goes home.
@@ -58,6 +58,41 @@ Saulo Filho's personal site: security tools for AI and the web, firmware for gro
 ### Apps
 
 - [MaréSegura](https://mare-segura.ai.studio/): real-time tide forecasts, live ocean data, under-keel clearance alerts and nautical charts that work fully offline.
+
+### Client work (Buena Vista Lab)
+
+Freelance work through my studio, [Buena Vista Lab](https://buenavistalab.com/). Clients include Polícia Federal, Kibon, Uber, Gillette, Brastemp, Saraiva, Absolut and Deco Capinhas.
+
+- **Brastemp B.blend Cápsulas**: store for Brazil’s first alcoholic drink capsules (VTEX, full stack).
+- **Brastemp B.blend Máquinas**: store for the B.blend machine that makes drinks, juices and sodas from capsules (VTEX, full stack).
+- **DecoSkin**: phone cases, screen protectors and accessories (VTEX, full stack).
+- **LAR Home Decor**: home decor store (Shopify, full stack).
+- **ProductLab**: landing for a sales platform that lets small brands sell like the big players (Shopify, front end).
+- **Spotz Car**: a store for cars (e-commerce, full stack).
+- **FECMT**: news and services for a workers’ federation in Mato Grosso (Netlify CMS, full stack).
+- **Santa Contabilidade**: site for a digital accounting firm (Netlify CMS, full stack).
+- **Manual do Customer Success**: landing page for an online course based on Hiram Damin’s book (landing page, full stack).
+- **FFWD**: agency site with case studies, like Malwee’s 50th anniversary (Netlify CMS, full stack).
+- **Bad Company**: site for a creative studio: branding, content and consultancy (site, full stack).
+- **WOGO Filmes**: site for a video production company (Netlify CMS, full stack).
+- **Jessyca Creative**: portfolio for a creative (Netlify CMS, full stack).
+- **Bendito Cheiro Art**: site for a handicraft brand (Netlify CMS, full stack).
+- **ZineTrip**: a zine you scroll through (Netlify CMS, full stack).
+- **instaxmmrs**: a wall of instant photos (Netlify CMS, full stack).
+- **spdwd**: brand site for Speedweed (site, full stack).
+- **My Favorites**: a searchable catalog of favorite products (site, full stack).
+- **GitHub Stars**: starred GitHub repositories in a searchable table (site, full stack).
+- **Chat Bot**: Chatnilson, a chatbot that talks you through a menu of options (bot, full stack).
+- **Botanic Daily Data**: an app for building your own harvest database by tracking and analyzing what goes in (app, full stack).
+
+### Advertising (the old days)
+
+- **Kibon**: 3D key visual: an ice cream bar planted in a pot and watered.
+- **Kibon Clock**: an ice-cream-bar clock installed on a square in Campinas.
+- **Saraiva Pocket Books**: print ad: Twenty Thousand Leagues Under the Sea embroidered on a jeans pocket.
+- **Absolut**: packaging concept: fruit in clear trays shaped like the bottle.
+- **Uber**: UberTRIO, a promo inside the Uber app.
+- **Barber**: a site where you could watch job interviews held in a barbershop, and hire the candidates.
 
 ## Writing
 

@@ -153,6 +153,10 @@ main { min-width: 0; max-width: 760px }
 .group li a { color: var(--fg); font-weight: 650; text-decoration: none; margin-right: 4px }
 .group li a::after { content: " ↗"; font-weight: 400; color: var(--faint); font-size: .85em }
 .group li a:hover { text-decoration: underline; text-underline-offset: 3px }
+.group li .g-name { color: var(--fg); font-weight: 650; margin-right: 4px }
+.group li .stack { font-family: var(--f-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); white-space: nowrap; margin-left: 4px }
+.g-note { margin: 0 0 12px 34px; max-width: 60ch; color: var(--muted); font-size: 15.5px; line-height: 1.55 }
+.g-note a { color: var(--fg) }
 
 /* Post list */
 .posts { list-style: none; margin: 0; padding: 0; display: grid }
@@ -240,6 +244,7 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1 }
   .post-date { padding-top: 0 }
   .group summary { flex-wrap: wrap; gap: 2px 12px }
   .group ul { padding-left: 18px; margin-left: 6px }
+  .g-note { margin-left: 24px }
   .pager { grid-template-columns: 1fr }
   .pager-link.next { grid-column: 1; text-align: left }
 }

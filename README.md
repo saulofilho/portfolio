@@ -9,7 +9,7 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 ## Seções
 
 - **About:** a home abre direto na apresentação.
-- **Work:** projetos agrupados em Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games e Apps.
+- **Work:** projetos agrupados em Studies, Planning and generation, Analysis and detection, Offensive, Firmware (M-VAVE FM-1), Games, Apps, Client work e Advertising.
 - **Writing:** os 5 posts mais recentes do blog. A lista completa fica em `blog.html`, agrupada por ano.
 - **Let’s connect:** LinkedIn, GitHub, Writing e 押忍.
 - **押忍** (`osu.html`): um terminal estilo Matrix que lê em voz alta o que o navegador entrega a qualquer site, sem pedir permissão: IP, provedor e cidade aproximada, sistema, GPU, tela, idioma e fuso, bateria, fontes instaladas, um ID de fingerprint e, ao vivo, cursor, cliques e teclas. No fim aparece o desenho em ASCII. Nada é guardado; só a consulta de IP sai do navegador (geojs.io, com ipwho.is e ipinfo.io de reserva). Enter ou espaço pulam a animação, Esc volta para a home.
@@ -58,6 +58,41 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 ### Apps
 
 - [MaréSegura](https://mare-segura.ai.studio/): previsão de marés em tempo real, dados do oceano ao vivo, alertas de folga sob a quilha e cartas náuticas que funcionam totalmente offline.
+
+### Client work (Buena Vista Lab)
+
+Trabalhos freelance pelo meu estúdio, [Buena Vista Lab](https://buenavistalab.com/). Clientes incluem Polícia Federal, Kibon, Uber, Gillette, Brastemp, Saraiva, Absolut e Deco Capinhas.
+
+- **Brastemp B.blend Cápsulas**: loja das primeiras cápsulas de drinks alcoólicos do Brasil (VTEX, full stack).
+- **Brastemp B.blend Máquinas**: loja da máquina B.blend, que faz drinks, sucos e refrigerantes a partir de cápsulas (VTEX, full stack).
+- **DecoSkin**: capinhas, películas e acessórios para celular (VTEX, full stack).
+- **LAR Home Decor**: loja de decoração (Shopify, full stack).
+- **ProductLab**: landing de uma plataforma de vendas para marcas pequenas venderem como os grandes players (Shopify, front end).
+- **Spotz Car**: loja de carros (e-commerce, full stack).
+- **FECMT**: notícias e serviços de uma federação de trabalhadores de Mato Grosso (Netlify CMS, full stack).
+- **Santa Contabilidade**: site de um escritório de contabilidade digital (Netlify CMS, full stack).
+- **Manual do Customer Success**: landing page de um curso online baseado no livro de Hiram Damin (landing page, full stack).
+- **FFWD**: site de agência com cases, como os 50 anos da Malwee (Netlify CMS, full stack).
+- **Bad Company**: site de um estúdio criativo: branding, conteúdo e consultoria (site, full stack).
+- **WOGO Filmes**: site de uma produtora de vídeo (Netlify CMS, full stack).
+- **Jessyca Creative**: portfólio de uma criativa (Netlify CMS, full stack).
+- **Bendito Cheiro Art**: site de uma marca de artesanato (Netlify CMS, full stack).
+- **ZineTrip**: um zine para rolar a tela (Netlify CMS, full stack).
+- **instaxmmrs**: um mural de fotos instantâneas (Netlify CMS, full stack).
+- **spdwd**: site da marca Speedweed (site, full stack).
+- **My Favorites**: catálogo de produtos favoritos com busca (site, full stack).
+- **GitHub Stars**: repositórios com estrela no GitHub numa tabela com busca (site, full stack).
+- **Chat Bot**: Chatnilson, um chatbot que conduz a conversa por um menu de opções (bot, full stack).
+- **Botanic Daily Data**: app para montar seu próprio banco de dados da colheita, registrando e analisando os insumos (app, full stack).
+
+### Advertising (the old days)
+
+- **Kibon**: key visual em 3D: um picolé plantado num vaso e regado.
+- **Kibon Clock**: um relógio-picolé instalado numa praça de Campinas.
+- **Saraiva Pocket Books**: anúncio impresso: Vinte Mil Léguas Submarinas bordado num bolso de jeans.
+- **Absolut**: conceito de embalagem: frutas em bandejas transparentes no formato da garrafa.
+- **Uber**: UberTRIO, uma promoção dentro do app da Uber.
+- **Barber**: um site para assistir a entrevistas de emprego feitas numa barbearia e contratar os candidatos.
 
 ## Textos
 

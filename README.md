@@ -51,6 +51,7 @@ Site pessoal de Saulo Filho: ferramentas de segurança para IA e web, firmwares 
 - [Afterglow](https://github.com/saulofilho/afterglow-fm1): um visualizador ao vivo para qualquer FM-1: som, notas, clock e botões, desenhados como painéis de linhas diagonais que caem. Em andamento.
 - [Spectral Relief](https://saulofilho.github.io/spectral-relief/): um estudo de visualizador de música para sintetizadores: o espectro do som desenhado como uma cordilheira em meio-tom, para o FM-1 e o Ableton Live.
 - [FLIPERAMA](https://github.com/saulofilho/fliperama-fm1): um fliperama de bairro dentro do FM-1: seis chips de som, cada um com um jogo original que a própria música joga. Em desenvolvimento inicial.
+- [Medieval Monsters Sounds](https://github.com/saulofilho/medieval-monsters-sounds): uma groovebox em que os monstros das margens de um livro medieval tocam na banda. A tela é um fólio iluminado, e cada fera só se mexe quando a sua faixa soa. Em andamento.
 - [GL!TCH](https://saulofilho.github.io/glitch/): uma groovebox neon-noir com seis escalas cyber e sete fontes de som. Roda no navegador, sem precisar do aparelho.
 - [synth-firmware](https://saulofilho.github.io/synth-firmware/): um plugin do Claude Code que empacota o método do COQUÍ para criar o próximo firmware do FM-1.
 

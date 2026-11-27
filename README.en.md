@@ -72,7 +72,6 @@ Freelance work through my studio, [Buena Vista Lab](https://buenavistalab.com/).
 - [DecoSkin](https://www.deco.com.br/): phone cases, screen protectors and accessories (VTEX, full stack).
 - **LAR Home Decor**: home decor store (Shopify, full stack).
 - **ProductLab**: landing for a sales platform that lets small brands sell like the big players (Shopify, front end).
-- [Spotz Car](https://github.com/saulofilho/spotz-car): a store for cars (e-commerce, full stack).
 - [FECMT](https://fecmt.org.br/): news and services for FECMT, the education and culture federation of Mato Grosso (Netlify CMS, full stack).
 - [Santa Contabilidade](https://santacontabilidade-pagina-de-materiais.netlify.app/): site for a digital accounting firm (Netlify CMS, full stack).
 - [Manual do Customer Success](https://manual-customer-success.vercel.app/): landing page for an online course based on Hiram Damin’s book (landing page, full stack).
@@ -84,9 +83,6 @@ Freelance work through my studio, [Buena Vista Lab](https://buenavistalab.com/).
 - [ZineTrip](https://github.com/saulofilho/zinetrip): a zine you scroll through (Netlify CMS, full stack).
 - [instaxmmrs](https://github.com/saulofilho/instaxmmrs): a wall of instant photos (Netlify CMS, full stack).
 - [spdwd](https://github.com/saulofilho/spdwd): brand site for Speedweed (site, full stack).
-- [My Favorites](https://myfavoritesapp.vercel.app/): a searchable catalog of favorite products (site, full stack).
-- [GitHub Stars](https://githubstars-git-main-saulofilho.vercel.app/): starred GitHub repositories in a searchable table (site, full stack).
-- [Chat Bot](https://chatnilson.vercel.app/): Chatnilson, a chatbot that talks you through a menu of options (bot, full stack).
 - [Botanic Daily Data](https://github.com/saulofilho/green-home): an app for building your own harvest database by tracking and analyzing what goes in (app, full stack).
 
 ### Advertising (the old days)
